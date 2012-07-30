@@ -1,0 +1,27 @@
+\part{Entwurf}
+Mit dem Gehaltsbenchmark für Mitteldeutschland\footnote{http://kanaleo.de/gehaltsbenchmark} sollen Personalleiter und Personalrcruiter einen Überblick über die aktuelle Gehaltssituation in Sachsen, Sachsen-Anhalt und Thüringen erhalten. 
+Das Konzept sieht vor, dass Partner der Communitys ITsax.de und ITmitte.de nach abgeschlossener Teilnahme die Auswertung kostenfrei zur Verfügung gestellt bekommen. An der Studie darf kostenfrei teilgenommen werden. Für die Auswertung der Umfrage wird, wenn ein Teilnehmer kein Partner der eben erwähnten Communitys ist, ein Betrag von 990€ berechnet. 
+Interessenten können eine allgemeine Auswertung auch ohne Teilnahme erhalten, wenn diese einen Betrg von 590€ entrichten. 
+\section{Entwurf der technischen Umsetzung}
+Bei der Umsetzung des Projektes sollen verschieden Technologien zum Einsatz kommen die nachfolgend näher erläutert werden. Als Basis wird Drupal 6 verwendet, da dieses System bereits besteht und es einfach ist darauf aufzubauen.
+Als Programmiersprachen werden PHP, Ruby on Rails und Javascript verwendet. 
+\subsection{Drupal}
+Drupal ist ein \glossary{cms}. Es ermöglicht dem Nutzer durch ein eingebautes und leicht erweiterbares Menüsystem unterschiedliche Module zu aktivieren und zu verwenden. 
+Es ist ein Modulbasiertes System. Der Vorteil besteht darin, dass der Administrator ohne Probleme neue Module hinzufügen kann ohne selbst Programmieren zu müssen. 
+Diese Module werden von einer großen Community, die hinter dem CMS ``Drupal''\footnote{http://drupal.org/} steht, entwickelt und veröffentlicht.
+\subsection{PHP}
+``PHP ist eine sehr weit verbreitete Scriptsprache die speziell auf Webentwicklung zugeschnitten ist und in HTML eingebettet werden kann.''\footnote{http://php.net}
+Drupal ist in PHP geschrieben und daher fiel die Auswahl des Studenten beim anpassen der Funktionalitäten darauf. Mit der Scriptsprache PHP kann der Student die vom Unternehmen gesetzten Anforderungen umsetzen und die zu verwendenden Module anpassen.
+\subsection{Ruby on Rails}
+Für die Verarbeitung der Daten aus der Datenbank wurde Ruby on Rails verwendet. 
+Dieses Framework nutzt Ruby als Sprache. Es erfuhr in den letzen Jahren sehr viel Aufmerksamkeit und setzte einen für damals revolutionären Standard im Bereich der Webanwendungsentwicklung. 
+Auch aus dem Lernaspekt des Praxissemesters heraus entschied sich der Student für den Einsatz diese Frameworks.
+\subsection{Javascript}
+Nach ausgiebigen recherchen im Internet hat sich der Autor für die Verwendung der Javascriptbibliothek Flotr2\footnote{http://humblesoftware.com/flotr2/} entschieden. Der Grund dafür lag darin, dass es erstens Opensource ist und zweitens gut Dokumentiert. 
+Nach kurzer Einarbeitung in die Bibliothek konnte der Student ergebnisse erziehlen und so die Entwicklung voran treiben. Die grafische Darstellung der Ergebnisse haben bei der Entscheidung eine große Rolle gespielt.
+{Beispielbild von Pie-Chart von Flotr2}
+\section{Datensicherheit}
+Bei der Entwicklung wurde im Vorfeld natürlich großes Augenmerk auf die Datensicherheit gelegt und somit als wichtigen Punkt in die Entwicklung mit einbezogen. Der Grund für einen solchen Punkt ist der, dass mit sensiblen Kundendaten verfahren wird und keiner der Kunden durch eventuelle Datanlücken oder ähnlichem Diskreditiert werden darf.
+Ein Beispiel für solche Daten wird der Student nachfolgen Beschreiben: 
+Teilnehmer A aus Stadt X nimmt las einziger aus Stadt X bei der Umfrage teil. 
+Nun kommt es zu der Situation, dass sich verschiedene Unternehmen untereinander kennen und von einander wissen das sie bei der Umfrage teilgenommen haben. 
