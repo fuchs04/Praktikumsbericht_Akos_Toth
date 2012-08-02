@@ -1,0 +1,191 @@
+\begin{thebibliography}{20}
+% this bibliography was produced with the style dinat.bst v2.5
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
+\makeatother
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[AdWords(2008)]{AdWords2008}
+\dinatlabel{AdWords 2008} \textsc{AdWords}, Inside:
+\newblock \emph{Landing page load time will soon be incorporated into Quality
+  Score - Inside {AdWords}}.
+\newblock
+  http://adwords.blogspot.com/2008/03/landing-page-load-time-will-soon-be.html.
+\newblock 2008. --
+\newblock URL
+  \url{http://adwords.blogspot.com/2008/03/landing-page-load-time-will-soon-be%
+.html}
+
+\bibitem[Bixby(2011)]{Bixby2011}
+\dinatlabel{Bixby 2011} \textsc{Bixby}, Joshua:
+\newblock \emph{{FAQs:} The 12 most-asked questions about how Google factors
+  page speed into its search rankings — Web Performance Today}.
+\newblock
+  http://www.webperformancetoday.com/2011/08/05/faqs-google-seo-search-ranking%
+-website-speed/.
+\newblock 2011. --
+\newblock URL
+  \url{http://www.webperformancetoday.com/2011/08/05/faqs-google-seo-search-ra%
+nking-website-speed/}
+
+\bibitem[BMWi(2011)]{BMWi2011}
+\dinatlabel{BMWi 2011} \textsc{BMWi}:
+\newblock \emph{Breitbandportal des {BMWi} - Kartendownload}.
+\newblock
+  {http://www.zukunft-breitband.de/BBA/Navigation/Breitbandatlas/laenderkarten%
+.html?}
+\newblock 2011. --
+\newblock URL
+  \url{http://www.zukunft-breitband.de/BBA/Navigation/Breitbandatlas/laenderka%
+rten.html?}
+
+\bibitem[Fielding(1999)]{Fielding1999}
+\dinatlabel{Fielding 1999} \textsc{Fielding}, R.:
+\newblock \emph{Hypertext Transfer Protocol -- {HTTP/1.1}}.
+\newblock http://www.ietf.org/rfc/rfc2616.txt.
+\newblock 1999. --
+\newblock URL \url{http://www.ietf.org/rfc/rfc2616.txt}
+
+\bibitem[Frucci(2009)]{Frucci2009}
+\dinatlabel{Frucci 2009} \textsc{Frucci}, Adam:
+\newblock \emph{Internet Speeds and Costs Around the World, Shown Visually}.
+\newblock
+  http://gizmodo.com/5390014/internet-speeds-and-costs-around-the-world-shown-%
+visually.
+\newblock 2009. --
+\newblock URL
+  \url{http://gizmodo.com/5390014/internet-speeds-and-costs-around-the-world-s%
+hown-visually}
+
+\bibitem[Google(2011{\natexlab{a}})]{Google2011}
+\dinatlabel{Google 2011{\natexlab{a}}} \textsc{Google}:
+\newblock \emph{Let's make the web faster - Google Code}.
+\newblock http://code.google.com/intl/de/speed/.
+\newblock 2011. --
+\newblock URL \url{http://code.google.com/intl/de/speed/}
+
+\bibitem[Google(2011{\natexlab{b}})]{Google2011a}
+\dinatlabel{Google 2011{\natexlab{b}}} \textsc{Google}:
+\newblock \emph{Let's make the web faster - Google Code}.
+\newblock http://code.google.com/intl/de/speed/articles/web-metrics.html.
+\newblock 2011. --
+\newblock URL
+  \url{http://code.google.com/intl/de/speed/articles/web-metrics.html}
+
+\bibitem[Hitwise(2011)]{Hitwise2011}
+\dinatlabel{Hitwise 2011} \textsc{Hitwise}:
+\newblock \emph{Hitwise United States » - the power of competitive
+  intelligence}.
+\newblock http://www.hitwise.com/us/datacenter/main/dashboard-23984.html.
+\newblock 2011. --
+\newblock URL
+  \url{http://www.hitwise.com/us/datacenter/main/dashboard-23984.html}
+
+\bibitem[Kaspersky(2011)]{Kaspersky2011}
+\dinatlabel{Kaspersky 2011} \textsc{Kaspersky}:
+\newblock \emph{„Das haben wir nicht bestellt“: Miner-Botnetz attackiert
+  deutsche Pizza-Lieferdienste}.
+\newblock http://www.kaspersky.com/de/news?id=207566473.
+\newblock 8 2011. --
+\newblock URL \url{http://www.kaspersky.com/de/news?id=207566473}
+
+\bibitem[Klukas(2011)]{Klukas2011}
+\dinatlabel{Klukas 2011} \textsc{Klukas}, Jörg:
+\newblock \emph{Unternehmen {\textbar} pludoni {GmbH} - the community experts}.
+\newblock http://www.pludoni.de/unternehmen.
+\newblock Juni 2011. --
+\newblock URL \url{http://www.pludoni.de/unternehmen}
+
+\bibitem[Microsoft(2011)]{Microsoft2011}
+\dinatlabel{Microsoft 2011} \textsc{Microsoft}:
+\newblock \emph{{IE} 6 Warning {\textbar} Educate Others to Stop Using {IE6}
+  {\textbar} {IE6} Countdown}.
+\newblock http://www.ie6countdown.com/educate-others.aspx.
+\newblock 2011. --
+\newblock URL \url{http://www.ie6countdown.com/educate-others.aspx}
+
+\bibitem[Netcraft(2011)]{Netcraft2011}
+\dinatlabel{Netcraft 2011} \textsc{Netcraft}:
+\newblock \emph{May 2011 Web Server Survey {\textbar} Netcraft}.
+\newblock
+  http://news.netcraft.com/archives/2011/05/02/may-2011-web-server-survey.html.
+\newblock 5 2011. --
+\newblock URL
+  \url{http://news.netcraft.com/archives/2011/05/02/may-2011-web-server-survey%
+.html}
+
+\bibitem[website optimization(2008)]{websiteoptimization2008}
+\dinatlabel{website optimization 2008} \textsc{optimization} website:
+\newblock \emph{The Psychology of Web Performance - how slow response times
+  affect user psychology}.
+\newblock
+  http://www.websiteoptimization.com/speed/tweak/psychology-web-performance/.
+\newblock 5 2008. --
+\newblock URL
+  \url{http://www.websiteoptimization.com/speed/tweak/psychology-web-performan%
+ce/}
+
+\bibitem[PHP(2011{\natexlab{a}})]{PHP2011}
+\dinatlabel{PHP 2011{\natexlab{a}}} \textsc{PHP}:
+\newblock \emph{{PHP:} Was ist {PHP?} - Manual}.
+\newblock http://www.php.net/manual/de/intro-whatis.php.
+\newblock 2011. --
+\newblock URL \url{http://www.php.net/manual/de/intro-whatis.php}
+
+\bibitem[PHP(2011{\natexlab{b}})]{PHP2011a}
+\dinatlabel{PHP 2011{\natexlab{b}}} \textsc{PHP}:
+\newblock \emph{{PHP:} Was kann {PHP?} - Manual}.
+\newblock http://www.php.net/manual/de/intro-whatcando.php.
+\newblock 2011. --
+\newblock URL \url{http://www.php.net/manual/de/intro-whatcando.php}
+
+\bibitem[StatCounter(2011)]{StatCounter2011}
+\dinatlabel{StatCounter 2011} \textsc{StatCounter}:
+\newblock \emph{Top 12 Browser Versions from Aug 10 to Aug 11 {\textbar}
+  {StatCounter} Global Stats}.
+\newblock
+  http://gs.statcounter.com/\#browser\_version-ww-monthly-201008-201108.
+\newblock 8 2011. --
+\newblock URL
+  \url{http://gs.statcounter.com/#browser_version-ww-monthly-201008-201108}
+
+\bibitem[Toll(2011)]{Toll2011}
+\dinatlabel{Toll 2011} \textsc{Toll}, William:
+\newblock \emph{Why Marketers Must Care About Site Speed}.
+\newblock
+  http://searchenginewatch.com/article/2085970/Why-Marketers-Must-Care-About-S%
+ite-Speed.
+\newblock 7 2011. --
+\newblock URL
+  \url{http://searchenginewatch.com/article/2085970/Why-Marketers-Must-Care-Ab%
+out-Site-Speed}
+
+\bibitem[w3c(2005)]{w3c2005}
+\dinatlabel{w3c 2005} \textsc{w3c}:
+\newblock \emph{{W3C} Document Object Model}.
+\newblock {http://www.w3.org/DOM/\#what}.
+\newblock 1 2005. --
+\newblock URL \url{http://www.w3.org/DOM/#what}
+
+\bibitem[Witzmann(2011)]{Witzmann2011}
+\dinatlabel{Witzmann 2011} \textsc{Witzmann}, Jan:
+\newblock \emph{Existenzbedrohung {DDoS-Attacke:} Kleine Onlinehändler werden
+  zur Zielscheibe für Erpressungsversuche {\textbar} {Onlinehändler-News}}.
+\newblock
+  http://www.onlinehaendler-news.de/2011/08/11/ddos-attacke-kleine-onlinehandl%
+er-werden-bedroht/.
+\newblock 8 2011. --
+\newblock URL
+  \url{http://www.onlinehaendler-news.de/2011/08/11/ddos-attacke-kleine-online%
+handler-werden-bedroht/}
+
+\bibitem[YahooDevNetwork(2011)]{YahooDevNetwork2011}
+\dinatlabel{YahooDevNetwork 2011} \textsc{YahooDevNetwork}:
+\newblock \emph{Best Practices for Speeding Up Your Web Site}.
+\newblock http://developer.yahoo.com/performance/rules.html\#min\_dom.
+\newblock 8 2011. --
+\newblock URL \url{http://developer.yahoo.com/performance/rules.html#min_dom}
+
+\end{thebibliography}

@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: parts/00-frontpage.aux
+A level-1 auxiliary file: parts/einleitung.aux
+A level-1 auxiliary file: parts/analyse.aux
+A level-1 auxiliary file: parts/entwurf.aux
+A level-1 auxiliary file: parts/implementierung.aux
+A level-1 auxiliary file: parts/ausblick.aux
+A level-1 auxiliary file: parts/99-appendix.aux
+The style file: dinat.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: litverz.bib
+You've used 20 entries,
+            3552 wiz_defined-function locations,
+            907 strings with 9411 characters,
+and the built_in function-call counts, 9662 in all, are:
+= -- 1180
+> -- 140
+< -- 80
++ -- 123
+- -- 60
+* -- 868
+:= -- 1668
+add.period$ -- 40
+call.type$ -- 20
+change.case$ -- 80
+chr.to.int$ -- 18
+cite$ -- 20
+duplicate$ -- 260
+empty$ -- 781
+format.name$ -- 120
+if$ -- 2001
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 150
+num.names$ -- 80
+pop$ -- 60
+preamble$ -- 1
+purify$ -- 80
+quote$ -- 0
+skip$ -- 279
+stack$ -- 0
+substring$ -- 901
+swap$ -- 40
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 220
+warning$ -- 0
+while$ -- 120
+width$ -- 0
+write$ -- 249

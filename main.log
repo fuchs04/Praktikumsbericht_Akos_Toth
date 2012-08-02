@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  30 JUL 2012 12:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.30)  2 AUG 2012 16:18
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -553,7 +553,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count101
 ))
 (/usr/share/texmf-texlive/tex/latex/mdwtools/mdwlist.sty
@@ -911,7 +911,7 @@ LaTeX Font Info:    ... okay on input line 92.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
 LaTeX Font Info:    ... okay on input line 92.
 
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
 \scratchdimen=\dimen136
@@ -957,7 +957,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<material/htwlogo.jpg, id=63, 341.3553pt x 127.9179pt>
+<material/htwlogo.jpg, id=51, 341.3553pt x 127.9179pt>
 File: material/htwlogo.jpg Graphic file (type jpg)
 
 <use material/htwlogo.jpg>) [1
@@ -990,16 +990,7 @@ Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)            on input line 8.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 9.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 14.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 15.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 16.
+(scrartcl)            on input line 13.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1022,9 +1013,15 @@ Class scrartcl Info: You've told me to use the font selection of the element
 \openout2 = `parts/entwurf.aux'.
 
  (./parts/entwurf.tex
-Overfull \hbox (16.0025pt too wide) in paragraph at lines 13--15
-\OT1/cmr/m/n/10 Php ist eine sehr weit ver-bre-it-ete Script-sprache die spezie
-ll auf Weben-twick-lung zugeschnit-
+Overfull \hbox (7.48982pt too wide) in paragraph at lines 1--5
+\OT1/cmr/m/n/10 Per-son-al-re-cruiter einen []Uberblick []uber die ak-tuelle Ge
+haltssi-t-u-a-tion in Sach-sen, Sachsen-
+ []
+
+
+Overfull \hbox (11.35428pt too wide) in paragraph at lines 13--15
+\OT1/cmr/m/n/10 zugeschnit-ten ist und in HTML einge-bet-tet wer-den kann.''[][
+][][][] Dru-pal ist in PHP geschrieben
  []
 
 [6
@@ -1054,28 +1051,226 @@ ll auf Weben-twick-lung zugeschnit-
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
+ (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 11--20
+[]\OT1/cmr/m/n/10 [AdWords 2008]  \OT1/cmr/m/sc/10 Ad-Words\OT1/cmr/m/n/10 , In
+-side:  \OT1/cmr/m/it/10 Land-ing page load time
+ []
 
-No file main.bbl.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--20
+\OT1/cmr/m/it/10 will soon be in-cor-po-rat-ed in-to Qual-i-ty Score - In-side 
+Ad-Words\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--20
+\OT1/cmr/m/n/10 http://adwords.blogspot.com/2008/03/landing-page-load-time-will
+-soon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--20
+\OT1/cmr/m/n/10 be.html.  2008. --  URL [][]$\OT1/cmtt/m/n/10 http : / / adword
+s . blogspot . com / 2008 / 03 /
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 22--32
+\OT1/cmr/m/it/10 day\OT1/cmr/m/n/10 .  http://www.webperformancetoday.com/2011/
+08/05/faqs-google-seo-search-
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 34--43
+[]\OT1/cmr/m/n/10 [BMWi 2011]  \OT1/cmr/m/sc/10 BMWi\OT1/cmr/m/n/10 :  \OT1/cmr
+/m/it/10 Bre-it-band-por-tal des BMWi - Kar-tendown-load\OT1/cmr/m/n/10 .
+ []
+
+
+Overfull \hbox (24.64186pt too wide) in paragraph at lines 34--43
+\OT1/cmr/m/n/10 http://www.zukunft-breitband.de/BBA/Navigation/Breitbandatlas/l
+aenderkarten.html?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--43
+\OT1/cmr/m/n/10 2011. --  URL [][]$\OT1/cmtt/m/n/10 http : / / www . zukunft-[]
+breitband . de / BBA / Navigation /
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 45--50
+[]\OT1/cmr/m/n/10 [Fielding 1999]  \OT1/cmr/m/sc/10 Field-ing\OT1/cmr/m/n/10 , 
+R.:  \OT1/cmr/m/it/10 Hy-per-text Trans-fer Pro-to-col -- HTTP/1.1\OT1/cmr/m/n/
+10 .
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 52--61
+\OT1/cmr/m/n/10 the-world-shown-visually.  2009. --  URL [][]$\OT1/cmtt/m/n/10 
+http : / / gizmodo . com / 5390014 /
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 63--68
+[]\OT1/cmr/m/n/10 [Google 2011a]  \OT1/cmr/m/sc/10 Google\OT1/cmr/m/n/10 :  \OT
+1/cmr/m/it/10 Let's make the web faster - Google Code\OT1/cmr/m/n/10 .
+ []
+
 [11
 
 
 ]
+Underfull \hbox (badness 5302) in paragraph at lines 70--76
+[]\OT1/cmr/m/n/10 [Google 2011b]  \OT1/cmr/m/sc/10 Google\OT1/cmr/m/n/10 :  \OT
+1/cmr/m/it/10 Let's make the web faster - Google Code\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+[]\OT1/cmr/m/n/10 [Kaspersky 2011]  \OT1/cmr/m/sc/10 Kasper-sky\OT1/cmr/m/n/10 
+:  []\OT1/cmr/m/it/10 Das haben wir nicht
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+\OT1/cmr/m/it/10 bestellt\: Miner-Botnetz at-tack-iert deutsche Pizza-Lieferdie
+nste\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
+\OT1/cmr/m/n/10 http://www.kaspersky.com/de/news?id=207566473.  8 2011. --  URL
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
+
+Underfull \hbox (badness 4229) in paragraph at lines 110--118
+[]\OT1/cmr/m/n/10 [Netcraft 2011]  \OT1/cmr/m/sc/10 Netcraft\OT1/cmr/m/n/10 :  
+\OT1/cmr/m/it/10 May 2011 Web Serv-er Sur-vey \OMS/cmsy/m/n/10 j \OT1/cmr/m/it/
+10 Netcraft\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--118
+\OT1/cmr/m/n/10 http://news.netcraft.com/archives/2011/05/02/may-2011-web-serve
+r-survey.html.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--118
+\OT1/cmr/m/n/10 5 2011. --  URL [][]$\OT1/cmtt/m/n/10 http : / / news . netcraf
+t . com / archives / 2011 / 05 / 02 /
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 120--129
+[]\OT1/cmr/m/n/10 [website op-ti-miza-tion 2008]  \OT1/cmr/m/sc/10 op-ti-miza-t
+ion \OT1/cmr/m/n/10 web-site:  \OT1/cmr/m/it/10 The Psy-chol-o-gy of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--129
+\OT1/cmr/m/it/10 Web Per-for-mance - how slow re-sponse times af-fect us-er psy
+-chol-o-gy\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--129
+\OT1/cmr/m/n/10 http://www.websiteoptimization.com/speed/tweak/psychology-web-p
+erformance/.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--129
+\OT1/cmr/m/n/10 5 2008. --  URL [][]$\OT1/cmtt/m/n/10 http : / / www . websiteo
+ptimization . com / speed / tweak /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--136
+[]\OT1/cmr/m/n/10 [PHP 2011a]  \OT1/cmr/m/sc/10 PHP\OT1/cmr/m/n/10 :  \OT1/cmr/
+m/it/10 PHP: Was ist PHP? - Man-u-al\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 131--136
+\OT1/cmr/m/n/10 http://www.php.net/manual/de/intro-whatis.php.  2011. --  URL [
+][]$\OT1/cmtt/m/n/10 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+[]\OT1/cmr/m/n/10 [PHP 2011b]  \OT1/cmr/m/sc/10 PHP\OT1/cmr/m/n/10 :  \OT1/cmr/
+m/it/10 PHP: Was kann PHP? - Man-u-al\OT1/cmr/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+\OT1/cmr/m/n/10 http://www.php.net/manual/de/intro-whatcando.php.  2011. --  UR
+L
+ []
+
+[12]
+Underfull \hbox (badness 8038) in paragraph at lines 155--164
+[]\OT1/cmr/m/n/10 [Toll 2011]  \OT1/cmr/m/sc/10 Toll\OT1/cmr/m/n/10 , William: 
+ \OT1/cmr/m/it/10 Why Mar-keters Must Care About Site
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--183
+[]\OT1/cmr/m/n/10 [Witzmann 2011]  \OT1/cmr/m/sc/10 Witz-mann\OT1/cmr/m/n/10 , 
+Jan:  \OT1/cmr/m/it/10 Ex-is-tenzbedro-hung DDoS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--183
+\OT1/cmr/m/it/10 Attacke: Kleine On-lineh[]andler wer-den zur Zielscheibe f[]ur
+ Er-pres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--183
+\OT1/cmr/m/it/10 sungsver-suche \OMS/cmsy/m/n/10 j \OT1/cmr/m/it/10 On-lineh[]a
+ndler-News\OT1/cmr/m/n/10 .  http://www.onlinehaendler-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--183
+\OT1/cmr/m/n/10 news.de/2011/08/11/ddos-attacke-kleine-onlinehandler-werden-bed
+roht/.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--183
+\OT1/cmr/m/n/10 8 2011. --  URL [][]$\OT1/cmtt/m/n/10 http : / / www . onlineha
+endler-[]news . de / 2011 / 08 / 11 /
+ []
+
+) [13]
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
 \us=\skip75
-) [12] (./main.aux (./parts/00-frontpage.aux) (./parts/einleitung.aux)
+) [14] (./main.aux (./parts/00-frontpage.aux) (./parts/einleitung.aux)
 (./parts/analyse.aux) (./parts/entwurf.aux) (./parts/implementierung.aux)
 (./parts/ausblick.aux) (./parts/99-appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 11013 strings out of 495061
- 158651 string characters out of 1182621
- 494265 words of memory out of 3000000
- 13870 multiletter control sequences out of 15000+50000
- 12276 words of font info for 47 fonts, out of 3000000 for 9000
+ 11116 strings out of 495061
+ 160484 string characters out of 1182621
+ 498038 words of memory out of 3000000
+ 13947 multiletter control sequences out of 15000+50000
+ 12923 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,13n,43p,407b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,43p,917b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{
 cite.*} has been referenced but does not exist, replaced by a fixed one
 
@@ -1083,14 +1278,18 @@ cite.*} has been referenced but does not exist, replaced by a fixed one
 uchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk></usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (12 pages, 219322 bytes).
+blic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (14 pages, 308149 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 

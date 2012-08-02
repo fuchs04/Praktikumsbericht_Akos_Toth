@@ -5,12 +5,9 @@
 \contentsline {part}{\numberline {II}Analyse}{4}{part.5}
 \contentsline {section}{\numberline {3}Analyse des Marktes}{4}{section.8}
 \contentsline {section}{\numberline {4}Analyse der technischen Vorraussetzungen}{4}{section.9}
-\contentsline {part}{\numberline {III}Entwurf}{6}{part.11}
-\contentsline {section}{\numberline {5}Entwurf der technischen Umsetzung}{6}{section.13}
-\contentsline {subsection}{\numberline {5.1}Drupal}{6}{subsection.14}
-\contentsline {subsection}{\numberline {5.2}PHP}{7}{subsection.16}
-\contentsline {subsection}{\numberline {5.3}Ruby on Rails}{7}{subsection.18}
-\contentsline {subsection}{\numberline {5.4}Javascript}{7}{subsection.19}
-\contentsline {section}{\numberline {6}Datensicherheit}{7}{section.21}
-\contentsline {part}{\numberline {IV}Implementierung}{9}{part.22}
-\contentsline {part}{\numberline {V}Ausblick}{10}{part.23}
+\contentsline {section}{\numberline {5}Entwurf der technischen Umsetzung}{6}{section.11}
+\contentsline {subsection}{\numberline {5.1}Drupal}{6}{subsection.12}
+\contentsline {subsection}{\numberline {5.2}PHP}{6}{subsection.14}
+\contentsline {subsection}{\numberline {5.3}Ruby on Rails}{7}{subsection.16}
+\contentsline {subsection}{\numberline {5.4}Javascript}{7}{subsection.17}
+\contentsline {section}{\numberline {6}Datensicherheit}{7}{section.19}

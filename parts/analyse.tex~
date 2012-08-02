@@ -1,20 +1,20 @@
-\chapter{Analyse}
+\part{Analyse}
 Die Grundidee und Inspiration für einen Gehaltsbenchmark bezogen auf den Raum Mitteldeutschland kommt aus der Fachzeitschrift c't\footnote{Computerfachzeitschrift von heise.de}. 
-In diesem Magazin erscheint jährlich eine Gehaltsumfrage. Diese bezieht sich aber im gegesatz zu der des Studenten entwickelten auf gesamt Deutschland und sogar auf Österreich und die Schweiz.
-Die Ergebnisse dieser Umfrage sind nur wenig Aussagekräftig wenn man kleiner Regionen betrachten möchte. 
+In diesem Magazin erscheint jährlich eine Gehaltsumfrage. Diese bezieht sich aber im Gegensatz zu der des Studenten entwickelten auf gesamt Deutschland und sogar auf Österreich und die Schweiz.
+Die Ergebnisse dieser Umfrage sind nur wenig Aussagekräftig wenn man kleinere Regionen betrachten möchte. 
 Der Grund dafür ist, dass in den Vergangenen Jahren nur ca. 4000\footnote{Gehaltsumfrage 2008: http://www.heise.de/jobs/artikel/c-t-Gehaltsumfrage-2008-791357.html} Beschäftigte aus der IT-Branche teilgenommen haben.
 \section{Analyse des Marktes}
 Eine Gehaltsumfrage zu diesem Speziellen Thema gab es bisher noch nicht. 
 Der Mehrwert des Gehaltsspiegels besteht für Mitarbeiter im Bereich \glossary{human-resources-management} darin, 
-dass nun eine Auswertung der aktuellen gehaltslage in einer bestimmten Region möglich ist. 
+dass nun eine Auswertung der aktuellen Gehaltslage in einer bestimmten Region möglich ist. 
 Gerade Personalleiter und Recruiter aus kleinen und mittelständischen Unternehmen können mit diesem Werkzeug fundierte Daten beziehen und sich eventuell neu Orientieren. 
-\section{Analyse der technischen Vorraussetzungen}
-Als zu verwendende Technologien wurde die folgenen Voraussetzungen bestimmt:
+\section{Analyse der technischen Voraussetzungen}
+Als zu verwendende Technologien wurde die folgenden Voraussetzungen bestimmt:
 \begin{itemize}
  \item einfache Umsetzung der Gestaltung von Fragebögen
- \item das System sollte mit einer mySQL Datenbank interagieren können
+ \item das System sollte mit einer MySQL Datenbank interagieren können
  \item es sollte eine einfache und klar strukturierte Oberfläche für den Administrator geben
- \item die Auswertung der Umfrage erfolgt in Form eines PDF's, welcehs per E-Mail verschickt werden kann
+ \item die Auswertung der Umfrage erfolgt in Form eines PDF's, welches per E-Mail verschickt werden kann
  \item die Anzeige der Auswertung ist für den Administrator Online einsehbar
- \item die Anzeige sollte mittels einer Javascript Bibliothek namens Flotr2\footnote{http://humblesoftware.com/flotr2/} zu realisieren
+ \item die Anzeige sollte mittels einer Javascript Bibliothek namens Flotr2\\footnote{http://humblesoftware.com/flotr2} zu realisieren
 \end{itemize}

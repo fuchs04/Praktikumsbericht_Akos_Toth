@@ -4,12 +4,9 @@
 \BOOKMARK [0][]{part.5}{II Analyse}{}
 \BOOKMARK [1][]{section.8}{3 Analyse des Marktes}{part.5}
 \BOOKMARK [1][]{section.9}{4 Analyse der technischen Vorraussetzungen}{part.5}
-\BOOKMARK [0][]{part.11}{III Entwurf}{}
-\BOOKMARK [1][]{section.13}{5 Entwurf der technischen Umsetzung}{part.11}
-\BOOKMARK [2][]{subsection.14}{5.1 Drupal}{section.13}
-\BOOKMARK [2][]{subsection.16}{5.2 PHP}{section.13}
-\BOOKMARK [2][]{subsection.18}{5.3 Ruby on Rails}{section.13}
-\BOOKMARK [2][]{subsection.19}{5.4 Javascript}{section.13}
-\BOOKMARK [1][]{section.21}{6 Datensicherheit}{part.11}
-\BOOKMARK [0][]{part.22}{IV Implementierung}{}
-\BOOKMARK [0][]{part.23}{V Ausblick}{}
+\BOOKMARK [1][]{section.11}{5 Entwurf der technischen Umsetzung}{part.5}
+\BOOKMARK [2][]{subsection.12}{5.1 Drupal}{section.11}
+\BOOKMARK [2][]{subsection.14}{5.2 PHP}{section.11}
+\BOOKMARK [2][]{subsection.16}{5.3 Ruby on Rails}{section.11}
+\BOOKMARK [2][]{subsection.17}{5.4 Javascript}{section.11}
+\BOOKMARK [1][]{section.19}{6 Datensicherheit}{part.5}
