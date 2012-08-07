@@ -1,9 +1,14 @@
 \appendix
 %\section{}
 \listoffigures
+<<<<<<< HEAD
 \listoftables
 \cite{*} 
 \makeglossary
+=======
+%\listoftables
+\cite{*} 
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 \bibliographystyle{dinat}
 \bibliography{litverz}
 \newpage

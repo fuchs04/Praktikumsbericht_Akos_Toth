@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 \documentclass[12pt, a4paper]{scrartcl}
+=======
+\documentclass[10pt, a4paper]{scrartcl}
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 %\usepackage{a4wide}					%Platzintensiver
 \usepackage[ngerman]{babel}	%Deutsche Silbentrennung
 \usepackage[utf8]{inputenc}		%Damit kann man auch Umlaute direkt eintippen
@@ -9,6 +13,7 @@
 \usepackage{amsbsy}
 \usepackage{mdwlist}
 \usepackage{amsfonts}
+<<<<<<< HEAD
 \usepackage{calc}          % Erweiterte Syntax für Zahlen- und Längenangaben.
 \usepackage[reals]{layout} % zur Kontrolle des aktuellen Layouts
 \usepackage{geometry}
@@ -17,6 +22,8 @@ right=20mm ,left=40mm}
 \clubpenalty = 10000		% verhindert Schusterjungen (Einzelzeile unten)
 \widowpenalty = 10000 
 \displaywidowpenalty = 10000	% verhindert "Hurenkinder" (Einzelzeile oben)
+=======
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 \usepackage{amsthm}
 \usepackage{graphicx}	%including images
 \usepackage{fancyhdr}	%for editiable headers and footers
@@ -31,7 +38,10 @@ right=20mm ,left=40mm}
 \usepackage{makeidx}
 \usepackage[square]{natbib}
 \usepackage{epigraph}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 \include{parts/include-syntax-php}
 %	Eigenes PHP Syntax-HL
 \usepackage{listings}
@@ -49,11 +59,29 @@ frame=single
 }
 
 
+<<<<<<< HEAD
 \renewcommand{\baselinestretch}{1.5}
 \newcommand{\ownTitle}{Praktikumsbericht}
 \newcommand{\ownTitleZ}{Entwicklung eines Gehaltsspiegels für Mitteldeutschland}
 \newcommand{\ownAutor}{Akos Toth, HTW Dresden}
 %\renewcommand{\familydefault}{\sfdefault}
+=======
+
+\newcommand{\ownTitle}{Praktikumsbericht}
+\newcommand{\ownTitleZ}{Entwicklung eines Gehaltsspiegels für Mitteldeutschland}
+\newcommand{\ownAutor}{Akos Toth, HTW Dresden}
+
+
+
+
+\usepackage{hyphenat}
+\usepackage[T1]{fontenc}
+
+
+\hyphenation{
+Mehr-wert
+}
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 
 \parskip 5pt           % sets spacing between paragraphs
 \parindent 0pt	
@@ -75,7 +103,11 @@ frame=single
 \renewcommand{\footrulewidth}{0.5pt}
 \newcommand{\cbox}{\includegraphics[width=0.2cm]{material/cbox.png} \ }
 \definecolor{Gray}{rgb}{0.85,0.85,0.90}
+<<<<<<< HEAD
 \setcounter{tocdepth}{2}	%kleineres TOC
+=======
+% \setcounter{tocdepth}{2}	%kleineres TOC
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 \newcommand{\arr}{$ \Longrightarrow$}
 
 \makeindex 	%start Aufzeichnun eines Stichwortverzeichnisses
@@ -95,7 +127,11 @@ frame=single
 }
 \date{\today}
 \onehalfspacing
+<<<<<<< HEAD
 
+=======
+\newcommand{\fullref}[1]{\ref{#1} -- \glqq\,\textit{\nameref{#1}}\grqq}
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735
 \setlength{\epigraphwidth}{.8\textwidth}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -108,6 +144,7 @@ frame=single
  \include{parts/ausblick}
  \include{parts/99-appendix}
 \end{document}
+<<<<<<< HEAD
  
 Vorlagen:
 \begin{longtable}{|l|l|}
@@ -125,3 +162,6 @@ HTWD & HTW Dresden\\
 \caption{Deutsche Terminologie}
 \label{tb:dt}
 \end{longtable}
+=======
+
+>>>>>>> 07ae6946c917e4e1942beeaf51f9e032089e1735

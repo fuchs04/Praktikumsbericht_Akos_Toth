@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  5 AUG 2012 20:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  7 AUG 2012 10:04
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -946,6 +946,18 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
+(/usr/share/texmf-texlive/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language4
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
 \@indexfile=\write3
 \openout3 = `main.idx'.
 
@@ -956,28 +968,28 @@ Writing index file main.idx
 (./parts/ausblick.aux) (./parts/99-appendix.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
 
 
 (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1033,7 +1045,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring ON on input line 101.
+Package hyperref Info: Link coloring ON on input line 111.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -1042,8 +1054,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 101.
-LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
  (./main.out)
 (./main.out)
 \@outlinefile=\write4
@@ -1066,7 +1078,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<material/htwlogo.jpg, id=79, 341.3553pt x 127.9179pt>
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<material/htwlogo.jpg, id=103, 341.3553pt x 127.9179pt>
 File: material/htwlogo.jpg Graphic file (type jpg)
 
 <use material/htwlogo.jpg>) [1
@@ -1074,8 +1091,12 @@ File: material/htwlogo.jpg Graphic file (type jpg)
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./material/htwlogo.jpg>] (
-./main.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./material/htwlogo.jpg>]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 113.
+
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) (./main.toc
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 2.
@@ -1102,7 +1123,7 @@ Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)            on input line 9.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 14.
+(scrartcl)            on input line 10.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 15.
@@ -1114,48 +1135,52 @@ Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)            on input line 17.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 20.
+(scrartcl)            on input line 18.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 22.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 23.
+ [2
+
+]
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 26.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2
-
-]
+ [3]
 \openout2 = `parts/einleitung.aux'.
 
- (./parts/einleitung.tex) [3
+ (./parts/einleitung.tex) [4
 
 ]
 \openout2 = `parts/analyse.aux'.
 
+ (./parts/analyse.tex
+[5
 
-(./parts/analyse.tex [4
 
-
-]) [5]
+]) [6]
 \openout2 = `parts/entwurf.aux'.
 
  (./parts/entwurf.tex
-Overfull \hbox (3.13606pt too wide) in paragraph at lines 2--5
-\OT1/cmr/m/n/12 son-al-re-cruiter einen []Uberblick []uber die ak-tuelle Gehalt
-ssi-t-u-a-tion in Sach-sen, Sachsen-
+Overfull \hbox (3.03548pt too wide) in paragraph at lines 3--6
+\T1/cmr/m/n/12 son-al-re-cruiter einen Überblick über die ak-tuelle Gehaltssi-t
+-u-a-tion in Sach-sen, Sachsen-
  []
 
-
-Overfull \hbox (0.31618pt too wide) in paragraph at lines 2--5
-\OT1/cmr/m/n/12 kosten-frei zur Verf[]ugung gestellt bekom-men. An der Studie d
-arf kosten-frei teilgenom-
- []
-
-[6
+[7
 
 
-]) [7] [8]
+]) [8] [9]
 \openout2 = `parts/implementierung.aux'.
 
  (./parts/implementierung.tex
-<material/fragebogen.png, id=155, 442.65375pt x 377.15906pt>
+<material/fragebogen.png, id=206, 442.65375pt x 377.15906pt>
 File: material/fragebogen.png Graphic file (type png)
 
 <use material/fragebogen.png>
@@ -1164,247 +1189,51 @@ Overfull \hbox (15.8613pt too wide) in paragraph at lines 39--41
  []
 
 
-Overfull \hbox (3.92502pt too wide) in paragraph at lines 30--43
-\OT1/cmr/m/n/12 Zu Be-ginn der Ar-beit wurde vom Au-tor in zusam-me-nar-beit mi
-t dem Ve-r-ant-wortlichen
+Overfull \hbox (3.82442pt too wide) in paragraph at lines 30--43
+\T1/cmr/m/n/12 Zu Be-ginn der Ar-beit wurde vom Au-tor in zusam-me-nar-beit mit
+ dem Ve-r-ant-wortlichen
  []
 
-[9
+[10
 
 
-] [10 <./material/fragebogen.png (PNG copy)>]) [11]
+] [11 <./material/fragebogen.png (PNG copy)>]
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)) [12]
 \openout2 = `parts/ausblick.aux'.
 
- (./parts/ausblick.tex)
-[12
+
+(./parts/ausblick.tex) [13
 
 
-]
+] [14]
 \openout2 = `parts/99-appendix.aux'.
 
  (./parts/99-appendix.tex (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
 
- (./main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 11--20
-[]\OT1/cmr/m/n/12 [AdWords 2008]  \OT1/cmr/m/sc/12 Ad-Words\OT1/cmr/m/n/12 , In
--side:  \OT1/cmr/m/it/12 Land-ing page load time
+(./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+[]\T1/cmr/m/n/12 [Drupal 2005]  \T1/cmr/m/sc/12 Dru-pal\T1/cmr/m/n/12 :  \T1/cm
+r/m/it/12 Con-tent Man-age-ment Sys-tem Dru-pal\T1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--20
-\OT1/cmr/m/it/12 will soon be in-cor-po-rat-ed in-to Qual-i-ty Score - In-side 
-Ad-Words\OT1/cmr/m/n/12 .
+Underfull \hbox (badness 10000) in paragraph at lines 32--37
+[]\T1/cmr/m/n/12 [Heise 2011]  \T1/cmr/m/sc/12 Heise\T1/cmr/m/n/12 :  \T1/cmr/m
+/it/12 Com-put-er-fachzeitschrift von www.heise.de\T1/cmr/m/n/12 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--20
-\OT1/cmr/m/n/12 http://adwords.blogspot.com/2008/03/landing-page-load-time-will
--soon-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--20
-\OT1/cmr/m/n/12 be.html.  2008. --  URL [][]$\OT1/cmtt/m/n/12 http : / / adword
-s . blogspot . com / 2008 / 03 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--43
-[]\OT1/cmr/m/n/12 [BMWi 2011]  \OT1/cmr/m/sc/12 BMWi\OT1/cmr/m/n/12 :  \OT1/cmr
-/m/it/12 Bre-it-band-por-tal des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--43
-\OT1/cmr/m/it/12 BMWi - Kar-tendown-load\OT1/cmr/m/n/12 .  http://www.zukunft-
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 34--43
-\OT1/cmr/m/n/12 breitband.de/BBA/Navigation/Breitbandatlas/laenderkarten.html? 
- 2011. --
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 45--50
-[]\OT1/cmr/m/n/12 [Fielding 1999]  \OT1/cmr/m/sc/12 Field-ing\OT1/cmr/m/n/12 , 
-R.:  \OT1/cmr/m/it/12 Hy-per-text Trans-fer Pro-to-col -- HTTP/1.1\OT1/cmr/m/n/
-12 .
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 52--61
-\OT1/cmr/m/n/12 the-world-shown-visually.  2009. --  URL [][]$\OT1/cmtt/m/n/12 
-http : / / gizmodo . com / 5390014 /
- []
-
-
-Underfull \hbox (badness 3333) in paragraph at lines 63--68
-[]\OT1/cmr/m/n/12 [Google 2011a]  \OT1/cmr/m/sc/12 Google\OT1/cmr/m/n/12 :  \OT
-1/cmr/m/it/12 Let's make the web faster - Google Code\OT1/cmr/m/n/12 .
- []
-
-[13
+) [15
 
 
 ]
-Underfull \hbox (badness 3240) in paragraph at lines 70--76
-[]\OT1/cmr/m/n/12 [Google 2011b]  \OT1/cmr/m/sc/12 Google\OT1/cmr/m/n/12 :  \OT
-1/cmr/m/it/12 Let's make the web faster - Google Code\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 78--85
-[]\OT1/cmr/m/n/12 [Hitwise 2011]  \OT1/cmr/m/sc/12 Hit-wise\OT1/cmr/m/n/12 :  \
-OT1/cmr/m/it/12 Hit-wise Unit-ed States [] - the pow-er of com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--93
-[]\OT1/cmr/m/n/12 [Kaspersky 2011]  \OT1/cmr/m/sc/12 Kasper-sky\OT1/cmr/m/n/12 
-:  []\OT1/cmr/m/it/12 Das haben wir nicht
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--93
-\OT1/cmr/m/it/12 bestellt\: Miner-Botnetz at-tack-iert deutsche Pizza-Lieferdie
-nste\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 87--93
-\OT1/cmr/m/n/12 http://www.kaspersky.com/de/news?id=207566473.  8 2011. --  URL
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
-
-Underfull \hbox (badness 2318) in paragraph at lines 110--118
-[]\OT1/cmr/m/n/12 [Netcraft 2011]  \OT1/cmr/m/sc/12 Netcraft\OT1/cmr/m/n/12 :  
-\OT1/cmr/m/it/12 May 2011 Web Serv-er Sur-vey \OMS/cmsy/m/n/12 j \OT1/cmr/m/it/
-12 Netcraft\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--118
-\OT1/cmr/m/n/12 http://news.netcraft.com/archives/2011/05/02/may-2011-web-serve
-r-
- []
-
-
-Underfull \hbox (badness 7667) in paragraph at lines 120--129
-[]\OT1/cmr/m/n/12 [website op-ti-miza-tion 2008]  \OT1/cmr/m/sc/12 op-ti-miza-t
-ion \OT1/cmr/m/n/12 web-site:  \OT1/cmr/m/it/12 The Psy-chol-o-gy
- []
-
-
-Underfull \hbox (badness 4518) in paragraph at lines 120--129
-\OT1/cmr/m/it/12 of Web Per-for-mance - how slow re-sponse times af-fect us-er 
-psy-chol-o-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--129
-\OT1/cmr/m/it/12 gy\OT1/cmr/m/n/12 .  http://www.websiteoptimization.com/speed/
-tweak/psychology-web-
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 120--129
-\OT1/cmr/m/n/12 performance/.  5 2008. --  URL [][]$\OT1/cmtt/m/n/12 http : / /
- www . websiteoptimization . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--136
-[]\OT1/cmr/m/n/12 [PHP 2011a]  \OT1/cmr/m/sc/12 PHP\OT1/cmr/m/n/12 :  \OT1/cmr/
-m/it/12 PHP: Was ist PHP? - Man-u-al\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 3088) in paragraph at lines 131--136
-\OT1/cmr/m/n/12 http://www.php.net/manual/de/intro-whatis.php.  2011. --  URL [
-][]$\OT1/cmtt/m/n/12 http :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
-[]\OT1/cmr/m/n/12 [PHP 2011b]  \OT1/cmr/m/sc/12 PHP\OT1/cmr/m/n/12 :  \OT1/cmr/
-m/it/12 PHP: Was kann PHP? - Man-u-al\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
-\OT1/cmr/m/n/12 http://www.php.net/manual/de/intro-whatcando.php.  2011. --  UR
-L
- []
-
-[14]
-Underfull \hbox (badness 5147) in paragraph at lines 155--164
-[]\OT1/cmr/m/n/12 [Toll 2011]  \OT1/cmr/m/sc/12 Toll\OT1/cmr/m/n/12 , William: 
- \OT1/cmr/m/it/12 Why Mar-keters Must Care About Site
- []
-
-
-Underfull \hbox (badness 3323) in paragraph at lines 155--164
-\OT1/cmr/m/it/12 Speed\OT1/cmr/m/n/12 .  http://searchenginewatch.com/article/2
-085970/Why-Marketers-Must-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
-[]\OT1/cmr/m/n/12 [w3c 2005]  \OT1/cmr/m/sc/12 w3c\OT1/cmr/m/n/12 :  \OT1/cmr/m
-/it/12 W3C Doc-u-ment Ob-ject Mod-el\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 166--171
-\OT1/cmr/m/n/12 http://www.w3.org/DOM/#what.  1 2005. --  URL [][]$\OT1/cmtt/m/
-n/12 http : / / www . w3 . org /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--183
-[]\OT1/cmr/m/n/12 [Witzmann 2011]  \OT1/cmr/m/sc/12 Witz-mann\OT1/cmr/m/n/12 , 
-Jan:  \OT1/cmr/m/it/12 Ex-is-tenzbedro-hung DDoS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--183
-\OT1/cmr/m/it/12 Attacke: Kleine On-lineh[]andler wer-den zur Zielscheibe f[]ur
- Er-pres-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--183
-\OT1/cmr/m/it/12 sungsver-suche \OMS/cmsy/m/n/12 j \OT1/cmr/m/it/12 On-lineh[]a
-ndler-News\OT1/cmr/m/n/12 .  http://www.onlinehaendler-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--183
-\OT1/cmr/m/n/12 news.de/2011/08/11/ddos-attacke-kleine-onlinehandler-werden-bed
-roht/.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--183
-\OT1/cmr/m/n/12 8 2011. --  URL [][]$\OT1/cmtt/m/n/12 http : / / www . onlineha
-endler-[]news . de / 2011 / 08 / 11 /
- []
-
-) [15]
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
@@ -1414,32 +1243,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--16
 (./parts/analyse.aux) (./parts/entwurf.aux) (./parts/implementierung.aux)
 (./parts/ausblick.aux) (./parts/99-appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 11653 strings out of 495061
- 168175 string characters out of 1182621
- 509758 words of memory out of 3000000
- 14459 multiletter control sequences out of 15000+50000
- 14178 words of font info for 54 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 43i,13n,43p,914b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 12242 strings out of 495061
+ 173345 string characters out of 1182621
+ 542758 words of memory out of 3000000
+ 15025 multiletter control sequences out of 15000+50000
+ 22645 words of font info for 59 fonts, out of 3000000 for 9000
+ 29 hyphenation exceptions out of 8191
+ 43i,13n,43p,916b,1183s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{
 cite.*} has been referenced but does not exist, replaced by a fixed one
 
- </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/f
-uchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.p
-fb>
-Output written on main.pdf (16 pages, 432693 bytes).
+ </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/f
+uchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/fuchs04/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/fuchs04/.texmf-var/
+fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/fuchs04/.texmf-var/fonts/pk/
+ljfour/jknappen/ec/tcrm1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecrm1000.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm0700.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2488
+.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> <
+/home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home/fuc
+hs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/fuchs04/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/fuchs04/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecsx1728.600pk> </home/fuchs04/.texmf-var/fonts/pk/lj
+four/jknappen/ec/ecrm1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecbx1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
+cbx2074.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.6
+00pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
+Output written on main.pdf (16 pages, 451931 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 865 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

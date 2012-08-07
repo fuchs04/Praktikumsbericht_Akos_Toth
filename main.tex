@@ -55,6 +55,16 @@ frame=single
 \newcommand{\ownAutor}{Akos Toth, HTW Dresden}
 %\renewcommand{\familydefault}{\sfdefault}
 
+
+
+\usepackage{hyphenat}
+\usepackage[T1]{fontenc}
+
+
+\hyphenation{
+Mehr-wert
+}
+
 \parskip 5pt           % sets spacing between paragraphs
 \parindent 0pt	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -95,7 +105,7 @@ frame=single
 }
 \date{\today}
 \onehalfspacing
-
+\newcommand{\fullref}[1]{\ref{#1} -- \glqq\,\textit{\nameref{#1}}\grqq}
 \setlength{\epigraphwidth}{.8\textwidth}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -108,20 +118,4 @@ frame=single
  \include{parts/ausblick}
  \include{parts/99-appendix}
 \end{document}
- 
-Vorlagen:
-\begin{longtable}{|l|l|}
-\hline
-\rowcolor{Gray}
-Falsch&Richtig\\
-\hline
-Studenten&Studierende\\
-\hline
-Abschlussprogramm&Degree Seeking Students\\
-\hline
-Doppeldiplom&Doppelabschluss[programm]\\
-\hline
-HTWD & HTW Dresden\\
-\caption{Deutsche Terminologie}
-\label{tb:dt}
-\end{longtable}
+
