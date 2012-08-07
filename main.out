@@ -1,12 +1,19 @@
 \BOOKMARK [0][]{part.2}{I Einleitung}{}
-\BOOKMARK [1][]{section.3}{1 Ziel}{part.2}
-\BOOKMARK [1][]{section.4}{2 Rahmen des Praktikums}{part.2}
-\BOOKMARK [0][]{part.5}{II Analyse}{}
-\BOOKMARK [1][]{section.8}{3 Analyse des Marktes}{part.5}
-\BOOKMARK [1][]{section.9}{4 Analyse der technischen Vorraussetzungen}{part.5}
-\BOOKMARK [1][]{section.11}{5 Entwurf der technischen Umsetzung}{part.5}
-\BOOKMARK [2][]{subsection.12}{5.1 Drupal}{section.11}
-\BOOKMARK [2][]{subsection.14}{5.2 PHP}{section.11}
-\BOOKMARK [2][]{subsection.16}{5.3 Ruby on Rails}{section.11}
-\BOOKMARK [2][]{subsection.17}{5.4 Javascript}{section.11}
-\BOOKMARK [1][]{section.19}{6 Datensicherheit}{part.5}
+\BOOKMARK [1][]{section.4}{1 Ziel}{part.2}
+\BOOKMARK [1][]{section.5}{2 Rahmen des Praktikums}{part.2}
+\BOOKMARK [0][]{part.6}{II Analyse}{}
+\BOOKMARK [1][]{section.9}{3 Analyse des Marktes}{part.6}
+\BOOKMARK [1][]{section.10}{4 Analyse der technischen Voraussetzungen}{part.6}
+\BOOKMARK [0][]{part.11}{III Entwurf}{}
+\BOOKMARK [1][]{section.12}{5 Entwurf der technischen Umsetzung}{part.11}
+\BOOKMARK [2][]{subsection.13}{5.1 Drupal}{section.12}
+\BOOKMARK [2][]{subsection.15}{5.2 PHP}{section.12}
+\BOOKMARK [2][]{subsection.17}{5.3 Ruby on Rails}{section.12}
+\BOOKMARK [2][]{subsection.18}{5.4 Javascript}{section.12}
+\BOOKMARK [1][]{section.20}{6 Datensicherheit}{part.11}
+\BOOKMARK [0][]{part.21}{IV Implementierungsdetails}{}
+\BOOKMARK [1][]{section.22}{7 statistische Berechnungen}{part.21}
+\BOOKMARK [1][]{section.23}{8 Phasen der Implementierung}{part.21}
+\BOOKMARK [2][]{subsection.27}{8.1 Erwiterung des Webservices www.kanaleo.de}{section.23}
+\BOOKMARK [2][]{subsection.29}{8.2 Verarbeitung und Bereitstellung der Daten}{section.23}
+\BOOKMARK [0][]{part.30}{V Ausblick}{}

@@ -4,12 +4,7 @@ Der Student hatte die Aufgabe im Rahmen seines Praktikums einen
 konzeptionieren und umzusetzen. Ziel des Praktikums war der praktische Einatz
 der neuen Software für das Unternehmen um dessen Produktpalette zu erweitern.
 \section{statistische Berechnungen}
-Um die erhaltenen Daten korrekt zu verarbeiten und zu berechnen wurden Formeln
-aus der Statistik herangezogen. Folgende Berechnungen wurden für die Auswertung
-der Daten getätigt:
-\begin{itemize}
-  \item Median $$$$
-\end{itemize}
+
 \section{Phasen der Implementierung}
 Die Arbeit wurde in drei Phasen gegliedert. 
 \begin{enumerate}
