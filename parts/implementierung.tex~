@@ -8,14 +8,14 @@ Um die erhaltenen Daten korrekt zu verarbeiten und zu berechnen wurden Formeln
 aus der Statistik herangezogen. Folgende Berechnungen wurden für die Auswertung
 der Daten getätigt:
 \begin{itemize}
-  \item Median 
+  \item Median \footnote{http://de.wikipedia.org/wiki/Median}
   \item Maximum \footnote{http://de.wikipedia.org/wiki/Gr\%C3\%B6\%C3\%9Ftes\_und\_kleinstes\_Element}
   \item Minimum \footnote{ebd.}
-  \item Mittelwert 
-  \item oberes Quartil
-  \item unteres Quartil
-  \item Interquartilsabstand
-  \item Ausreißerverdächtige Werte
+  \item Mittelwert \footnote{http://de.wikipedia.org/wiki/Mittelwert}
+  \item oberes Quartil \footnote{http://de.wikipedia.org/wiki/Quartil}
+  \item unteres Quartil \footnote{ebd.}
+  \item Interquartilsabstand \footnote{ebd.}
+  \item Ausreißerverdächtige Werte \footnote{http://de.wikipedia.org/wiki/Boxplot}
 \end{itemize}
 \section{Phasen der Implementierung}
 Die Arbeit wurde in drei Phasen gegliedert. 
@@ -33,8 +33,7 @@ vereinbart. Dazu wurde nach einer gründlichen Recherche das Drupal-Modul
 "Webform" für die Umsetzung des Projektes verwendet. Dieses Modul bot eine
 schnelle Entwicklung des Fragebogens. Mittels eines vom Modul bereitgestellten
 Baukastens konnten via ''Drag and Drop'' alle Elemente der Umfrage platziert
-werden. Nachfolgend sehen Sie einen Auszug der Entwicklung des
-Fragebogens.
+werden. \ref{fig: Fragebogen edit}
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=350px]{./material/gehaltsformedit.png}
@@ -48,8 +47,7 @@ Die Wahl des Studenten fiel bei der Verarbeitung und Bereitstellung der Daten
 auf das Framework Ruby on Rails. Der Grund hierfür war, dass das Praktikum
 Möglichkeiten zum erlernen neuer Techniken einräumen sollte. Ruby, als Basis
 des Frameworks, ist eine interessante Sprache, die dem Autor viel Raum zur
-Umsetzung des Projektes gab. Anhand der nachfolgenden Auszüge des Programmcodes
-wird der Student erläutern wie der Median zu berechnen war. \ref{lst:median}
+Umsetzung des Projektes gab. Beispielhaft wird der Autor Anhand der nachfolgenden Auszüge des Programmcodes erläutern wie der Median zu berechnen war. \ref{lst:median}
 
 \lstset{language=ruby}
 \begin{lstlisting}[label=lst:median,caption=Auszug: Berechnung des Medians und des Durchschnitts]
@@ -66,7 +64,7 @@ class Array
   end 
 end
 \end{lstlisting}
-Im obigen Quelltextausschnitt werden auf allen Arrays bzw. Listenobjekten die Methoden \texttt{median} und mean (Durchschnitt) angewendet. Die Berechnung erfolgt anhand der Vorschrift zur Berechnung des Medians\footnote{http://de.wikipedia.org/wiki/Median}.
+Im obigen Quelltextausschnitt werden auf allen Arrays bzw. Listenobjekten die Methoden \texttt{median} und \texttt{mean} (Durchschnitt) angewendet. Die Berechnung erfolgt anhand der Vorschrift zur Berechnung des Medians\footnote{http://de.wikipedia.org/wiki/Median}.
 Aufgerufen werden die Methoden dann als Objektmethoden jedes weiteren Array-Objektes, beispielhaft in Listing \ref{lst:mean}.
 \begin{lstlisting}[label=lst:mean,caption=Beispiel des Durchschnitts und des Medians]
 [1,2,5,10].mean # -> 4.5
