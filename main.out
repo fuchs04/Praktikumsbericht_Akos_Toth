@@ -1,12 +1,20 @@
-\BOOKMARK [0][]{part.2}{I Einleitung}{}
-\BOOKMARK [1][]{section.3}{1 Ziel}{part.2}
-\BOOKMARK [1][]{section.4}{2 Rahmen des Praktikums}{part.2}
-\BOOKMARK [0][]{part.5}{II Analyse}{}
-\BOOKMARK [1][]{section.8}{3 Analyse des Marktes}{part.5}
-\BOOKMARK [1][]{section.9}{4 Analyse der technischen Vorraussetzungen}{part.5}
-\BOOKMARK [1][]{section.11}{5 Entwurf der technischen Umsetzung}{part.5}
-\BOOKMARK [2][]{subsection.12}{5.1 Drupal}{section.11}
-\BOOKMARK [2][]{subsection.14}{5.2 PHP}{section.11}
-\BOOKMARK [2][]{subsection.16}{5.3 Ruby on Rails}{section.11}
-\BOOKMARK [2][]{subsection.17}{5.4 Javascript}{section.11}
-\BOOKMARK [1][]{section.19}{6 Datensicherheit}{part.5}
+\BOOKMARK [1][]{section.2}{1 Danksagung}{}
+\BOOKMARK [0][]{part.3}{I Einleitung}{}
+\BOOKMARK [1][]{section.4}{2 Ziel}{part.3}
+\BOOKMARK [1][]{section.5}{3 Rahmen des Praktikums}{part.3}
+\BOOKMARK [0][]{part.6}{II Analyse}{}
+\BOOKMARK [1][]{section.8}{4 Analyse des Marktes}{part.6}
+\BOOKMARK [1][]{section.9}{5 Analyse der technischen Voraussetzungen}{part.6}
+\BOOKMARK [0][]{part.10}{III Entwurf}{}
+\BOOKMARK [1][]{section.11}{6 Entwurf der technischen Umsetzung}{part.10}
+\BOOKMARK [2][]{subsection.12}{6.1 Drupal}{section.11}
+\BOOKMARK [2][]{subsection.13}{6.2 PHP}{section.11}
+\BOOKMARK [2][]{subsection.15}{6.3 Ruby on Rails}{section.11}
+\BOOKMARK [2][]{subsection.17}{6.4 Javascript}{section.11}
+\BOOKMARK [1][]{section.18}{7 Datensicherheit}{part.10}
+\BOOKMARK [0][]{part.19}{IV Implementierung}{}
+\BOOKMARK [0][]{part.20}{V Ausblick}{}
+\BOOKMARK [1][]{section.21}{8 Empfehlungen zur weiteren Verwendung}{part.20}
+\BOOKMARK [2][]{subsection.22}{8.1 technische Weiterverwendung}{section.21}
+\BOOKMARK [2][]{subsection.24}{8.2 wirtschaftliche Weiterverwendung}{section.21}
+\BOOKMARK [1][]{section.25}{9 Verbesserungen}{part.20}

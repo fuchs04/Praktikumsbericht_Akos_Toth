@@ -10,7 +10,6 @@
 }
 
 @MISC{Drupal,
-  author = {Drupal},
   title = {Content Management System Drupal},
   howpublished = {http://www.drupal.org},
   year = {2005},
@@ -18,37 +17,28 @@
 }
 
 @MISC{PHP,
-  author = {PHP},
   title = {Scriptsprache speziell entwickelt für die Verwendung von Webentwicklung},
   howpublished = {http://www.php.net},
-  year = {1990},
   url = {http://www.php.net}
 }
 @MISC{ct,
-  author = {Heise},
   title = {Computerfachzeitschrift von www.heise.de},
   howpublished = {http://www.heise.de},
-  year = {2011},
   url = {http://www.heise.de}
 }
 @MISC{flotr,
   author = {Humblesoftware},
   title = {Javascriptbibliothek zur grafischen Darstellung von Statistischen werten},
   howpublished = {http://www.humblesoftware.com/flotr2},
-  year = {2011},
   url = {http://www.humblesoftware.com/flotr2}
 }
 @MISC{kanaleo,
-  author = {pludoni GmbH},
   title = {Bewerbercontrolling für Parsonalleiter und Personalrecruiter},
   howpublished = {http://www.kanaleo.de},
-  year = {2010},
   url = {http://www.kanaleo.de}
 }
 @MISC{rails,
-  author = {Rails},
   title = {Framework für Webentwicklung},
   howpublished = {http://www.rubyonrails.net},
-  year = {2011},
   url = {http://www.rubyonrails.net}
 }

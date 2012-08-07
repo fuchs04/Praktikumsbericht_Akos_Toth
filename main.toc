@@ -1,13 +1,21 @@
 \select@language {ngerman}
-\contentsline {part}{\numberline {I}Einleitung}{3}{part.2}
-\contentsline {section}{\numberline {1}Ziel}{3}{section.3}
-\contentsline {section}{\numberline {2}Rahmen des Praktikums}{3}{section.4}
-\contentsline {part}{\numberline {II}Analyse}{4}{part.5}
-\contentsline {section}{\numberline {3}Analyse des Marktes}{4}{section.8}
-\contentsline {section}{\numberline {4}Analyse der technischen Vorraussetzungen}{4}{section.9}
-\contentsline {section}{\numberline {5}Entwurf der technischen Umsetzung}{6}{section.11}
-\contentsline {subsection}{\numberline {5.1}Drupal}{6}{subsection.12}
-\contentsline {subsection}{\numberline {5.2}PHP}{6}{subsection.14}
-\contentsline {subsection}{\numberline {5.3}Ruby on Rails}{7}{subsection.16}
-\contentsline {subsection}{\numberline {5.4}Javascript}{7}{subsection.17}
-\contentsline {section}{\numberline {6}Datensicherheit}{7}{section.19}
+\contentsline {section}{\numberline {1}Danksagung}{3}{section.2}
+\contentsline {part}{\numberline {I}Einleitung}{3}{part.3}
+\contentsline {section}{\numberline {2}Ziel}{3}{section.4}
+\contentsline {section}{\numberline {3}Rahmen des Praktikums}{3}{section.5}
+\contentsline {part}{\numberline {II}Analyse}{4}{part.6}
+\contentsline {section}{\numberline {4}Analyse des Marktes}{4}{section.8}
+\contentsline {section}{\numberline {5}Analyse der technischen Voraussetzungen}{5}{section.9}
+\contentsline {part}{\numberline {III}Entwurf}{6}{part.10}
+\contentsline {section}{\numberline {6}Entwurf der technischen Umsetzung}{6}{section.11}
+\contentsline {subsection}{\numberline {6.1}Drupal}{6}{subsection.12}
+\contentsline {subsection}{\numberline {6.2}PHP}{7}{subsection.13}
+\contentsline {subsection}{\numberline {6.3}Ruby on Rails}{7}{subsection.15}
+\contentsline {subsection}{\numberline {6.4}Javascript}{7}{subsection.17}
+\contentsline {section}{\numberline {7}Datensicherheit}{7}{section.18}
+\contentsline {part}{\numberline {IV}Implementierung}{9}{part.19}
+\contentsline {part}{\numberline {V}Ausblick}{10}{part.20}
+\contentsline {section}{\numberline {8}Empfehlungen zur weiteren Verwendung}{10}{section.21}
+\contentsline {subsection}{\numberline {8.1}technische Weiterverwendung}{10}{subsection.22}
+\contentsline {subsection}{\numberline {8.2}wirtschaftliche Weiterverwendung}{10}{subsection.24}
+\contentsline {section}{\numberline {9}Verbesserungen}{11}{section.25}

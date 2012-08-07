@@ -10,7 +10,6 @@
 }
 
 @MISC{Drupal,
-  author = {Drupal},
   title = {Content Management System Drupal},
   howpublished = {http://www.drupal.org},
   year = {2005},
