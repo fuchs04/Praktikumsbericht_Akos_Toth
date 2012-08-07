@@ -7,20 +7,21 @@
 \contentsline {section}{\numberline {4}Analyse der technischen Voraussetzungen}{6}{section.8}
 \contentsline {part}{\numberline {III}Entwurf}{7}{part.11}
 \contentsline {section}{\numberline {5}Entwurf der technischen Umsetzung}{7}{section.12}
-\contentsline {subsection}{\numberline {5.1}Drupal}{8}{subsection.13}
-\contentsline {subsection}{\numberline {5.2}PHP}{8}{subsection.15}
-\contentsline {subsection}{\numberline {5.3}Ruby on Rails}{8}{subsection.17}
-\contentsline {subsection}{\numberline {5.4}Javascript}{8}{subsection.18}
-\contentsline {section}{\numberline {6}Datensicherheit}{9}{section.20}
-\contentsline {part}{\numberline {IV}Implementierungsdetails}{11}{part.21}
-\contentsline {section}{\numberline {7}statistische Berechnungen}{11}{section.22}
-\contentsline {section}{\numberline {8}Phasen der Implementierung}{12}{section.31}
-\contentsline {subsection}{\numberline {8.1}Erweiterung des Webservices www.kanaleo.de}{12}{subsection.35}
-\contentsline {subsection}{\numberline {8.2}Verarbeitung und Bereitstellung der Daten}{14}{subsection.37}
-\contentsline {subsection}{\numberline {8.3}Erstellung der Auswertung in Form eines PDFs}{15}{subsection.54}
-\contentsline {subsubsection}{\numberline {8.3.1}Stichprobenzusammensetzung}{15}{subsubsection.58}
-\contentsline {subsubsection}{\numberline {8.3.2}Allgemeine Auswertung}{16}{subsubsection.61}
-\contentsline {subsubsection}{\numberline {8.3.3}Pers\IeC {\"o}nliche Auswertung}{17}{subsubsection.63}
+\contentsline {subsection}{\numberline {5.1}Drupal}{8}{subsection.16}
+\contentsline {subsection}{\numberline {5.2}PHP}{8}{subsection.18}
+\contentsline {subsection}{\numberline {5.3}Ruby on Rails}{8}{subsection.19}
+\contentsline {subsection}{\numberline {5.4}Javascript}{8}{subsection.20}
+\contentsline {section}{\numberline {6}Datensicherheit}{10}{section.22}
+\contentsline {part}{\numberline {IV}Implementierungsdetails}{11}{part.23}
+\contentsline {section}{\numberline {7}statistische Berechnungen}{11}{section.24}
+\contentsline {section}{\numberline {8}Phasen der Implementierung}{12}{section.30}
+\contentsline {subsection}{\numberline {8.1}Erweiterung des Webservices www.kanaleo.de}{12}{subsection.34}
+\contentsline {subsection}{\numberline {8.2}Verarbeitung und Bereitstellung der Daten}{14}{subsection.36}
+\contentsline {subsection}{\numberline {8.3}Erstellung der Auswertung in Form eines PDFs}{15}{subsection.53}
+\contentsline {subsubsection}{\numberline {8.3.1}Stichprobenzusammensetzung}{15}{subsubsection.57}
+\contentsline {subsubsection}{\numberline {8.3.2}Allgemeine Auswertung}{16}{subsubsection.60}
+\contentsline {subsubsection}{\numberline {8.3.3}Pers\IeC {\"o}nliche Auswertung}{17}{subsubsection.62}
+\contentsline {subsection}{\numberline {8.4}Bezahlmodell}{17}{subsection.67}
 \contentsline {part}{\numberline {V}Ausblick}{19}{part.68}
 \contentsline {section}{\numberline {9}Empfehlungen zur weiteren Verwendung}{19}{section.69}
 \contentsline {subsection}{\numberline {9.1}technische Weiterverwendung}{19}{subsection.70}

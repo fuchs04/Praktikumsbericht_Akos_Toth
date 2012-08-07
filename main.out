@@ -6,20 +6,21 @@
 \BOOKMARK [1][]{section.8}{4 Analyse der technischen Voraussetzungen}{part.5}
 \BOOKMARK [0][]{part.11}{III Entwurf}{}
 \BOOKMARK [1][]{section.12}{5 Entwurf der technischen Umsetzung}{part.11}
-\BOOKMARK [2][]{subsection.13}{5.1 Drupal}{section.12}
-\BOOKMARK [2][]{subsection.15}{5.2 PHP}{section.12}
-\BOOKMARK [2][]{subsection.17}{5.3 Ruby on Rails}{section.12}
-\BOOKMARK [2][]{subsection.18}{5.4 Javascript}{section.12}
-\BOOKMARK [1][]{section.20}{6 Datensicherheit}{part.11}
-\BOOKMARK [0][]{part.21}{IV Implementierungsdetails}{}
-\BOOKMARK [1][]{section.22}{7 statistische Berechnungen}{part.21}
-\BOOKMARK [1][]{section.31}{8 Phasen der Implementierung}{part.21}
-\BOOKMARK [2][]{subsection.35}{8.1 Erweiterung des Webservices www.kanaleo.de}{section.31}
-\BOOKMARK [2][]{subsection.37}{8.2 Verarbeitung und Bereitstellung der Daten}{section.31}
-\BOOKMARK [2][]{subsection.54}{8.3 Erstellung der Auswertung in Form eines PDFs}{section.31}
-\BOOKMARK [3][]{subsubsection.58}{8.3.1 Stichprobenzusammensetzung}{subsection.54}
-\BOOKMARK [3][]{subsubsection.61}{8.3.2 Allgemeine Auswertung}{subsection.54}
-\BOOKMARK [3][]{subsubsection.63}{8.3.3 Pers\366nliche Auswertung}{subsection.54}
+\BOOKMARK [2][]{subsection.16}{5.1 Drupal}{section.12}
+\BOOKMARK [2][]{subsection.18}{5.2 PHP}{section.12}
+\BOOKMARK [2][]{subsection.19}{5.3 Ruby on Rails}{section.12}
+\BOOKMARK [2][]{subsection.20}{5.4 Javascript}{section.12}
+\BOOKMARK [1][]{section.22}{6 Datensicherheit}{part.11}
+\BOOKMARK [0][]{part.23}{IV Implementierungsdetails}{}
+\BOOKMARK [1][]{section.24}{7 statistische Berechnungen}{part.23}
+\BOOKMARK [1][]{section.30}{8 Phasen der Implementierung}{part.23}
+\BOOKMARK [2][]{subsection.34}{8.1 Erweiterung des Webservices www.kanaleo.de}{section.30}
+\BOOKMARK [2][]{subsection.36}{8.2 Verarbeitung und Bereitstellung der Daten}{section.30}
+\BOOKMARK [2][]{subsection.53}{8.3 Erstellung der Auswertung in Form eines PDFs}{section.30}
+\BOOKMARK [3][]{subsubsection.57}{8.3.1 Stichprobenzusammensetzung}{subsection.53}
+\BOOKMARK [3][]{subsubsection.60}{8.3.2 Allgemeine Auswertung}{subsection.53}
+\BOOKMARK [3][]{subsubsection.62}{8.3.3 Pers\366nliche Auswertung}{subsection.53}
+\BOOKMARK [2][]{subsection.67}{8.4 Bezahlmodell}{section.30}
 \BOOKMARK [0][]{part.68}{V Ausblick}{}
 \BOOKMARK [1][]{section.69}{9 Empfehlungen zur weiteren Verwendung}{part.68}
 \BOOKMARK [2][]{subsection.70}{9.1 technische Weiterverwendung}{section.69}

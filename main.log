@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.6)  7 AUG 2012 15:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.6)  7 AUG 2012 16:41
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -1072,7 +1072,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<material/htwlogo.jpg, id=111, 341.3553pt x 127.9179pt>
+<material/htwlogo.jpg, id=115, 341.3553pt x 127.9179pt>
 File: material/htwlogo.jpg Graphic file (type jpg)
 
 <use material/htwlogo.jpg>) [1
@@ -1127,13 +1127,13 @@ Class scrartcl Info: You've told me to use the font selection of the element
 ]
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 24.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 25.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 28.
+(scrartcl)            on input line 26.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 29.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1179,10 +1179,10 @@ s-si-tua-ti-on in Sach-sen, Sachsen-
 [7
 
 
-] <./material/pie_chart.png, id=211, 596.2275pt x 397.485pt>
+] <./material/pie_chart.png, id=220, 597.23125pt x 600.2425pt>
 File: ./material/pie_chart.png Graphic file (type png)
 
-<use ./material/pie_chart.png> [8]) [9 <./material/pie_chart.png>] [10]
+<use ./material/pie_chart.png>) [8] [9 <./material/pie_chart.png>] [10]
 \openout2 = `parts/implementierung.aux'.
 
 
@@ -1190,12 +1190,12 @@ File: ./material/pie_chart.png Graphic file (type png)
 
 
 ]
-<./material/gehaltsformedit.png, id=251, 971.63pt x 1548.78625pt>
+<./material/gehaltsformedit.png, id=254, 971.63pt x 1548.78625pt>
 File: ./material/gehaltsformedit.png Graphic file (type png)
 
 <use ./material/gehaltsformedit.png>
 
-LaTeX Warning: Float too large for page by 7.46657pt on input line 43.
+LaTeX Warning: Float too large for page by 7.46657pt on input line 44.
 
 [12] [13 <./material/gehaltsformedit.png>]
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
@@ -1205,22 +1205,22 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 53.
+nput line 54.
  [14]
-<./material/auszug_ueberblick_1.png, id=292, 1084.05pt x 781.92125pt>
+<./material/auszug_ueberblick_1.png, id=296, 1084.05pt x 781.92125pt>
 File: ./material/auszug_ueberblick_1.png Graphic file (type png)
 
 <use ./material/auszug_ueberblick_1.png>
-<./material/auszug_ueberblick_2.png, id=293, 1084.05pt x 781.92125pt>
+<./material/auszug_ueberblick_2.png, id=297, 1084.05pt x 781.92125pt>
 File: ./material/auszug_ueberblick_2.png Graphic file (type png)
 
 <use ./material/auszug_ueberblick_2.png> [15 <./material/auszug_ueberblick_1.pn
 g>] [16 <./material/auszug_ueberblick_2.png>]
-<./material/allgemeine_auswertung.png, id=309, 1084.05pt x 781.92125pt>
+<./material/allgemeine_auswertung.png, id=313, 1084.05pt x 781.92125pt>
 File: ./material/allgemeine_auswertung.png Graphic file (type png)
 
 <use ./material/allgemeine_auswertung.png>
-<./material/pers_auswertung.png, id=313, 1084.05pt x 781.92125pt>
+<./material/pers_auswertung.png, id=317, 1084.05pt x 781.92125pt>
 File: ./material/pers_auswertung.png Graphic file (type png)
 
 <use ./material/pers_auswertung.png>) [17 <./material/allgemeine_auswertung.png
@@ -1269,10 +1269,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--16
 (./parts/analyse.aux) (./parts/entwurf.aux) (./parts/implementierung.aux)
 (./parts/ausblick.aux) (./parts/99-appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12329 strings out of 495021
- 175104 string characters out of 1181036
- 566556 words of memory out of 3000000
- 15080 multiletter control sequences out of 15000+50000
+ 12331 strings out of 495021
+ 175130 string characters out of 1181036
+ 567556 words of memory out of 3000000
+ 15082 multiletter control sequences out of 15000+50000
  22645 words of font info for 59 fonts, out of 3000000 for 9000
  29 hyphenation exceptions out of 8191
  43i,13n,43p,913b,1203s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1295,9 +1295,9 @@ four/jknappen/ec/ecrm1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ecbx1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
 cbx2074.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.6
 00pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
-Output written on main.pdf (23 pages, 1050303 bytes).
+Output written on main.pdf (23 pages, 1079448 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
+ 1023 PDF objects out of 1200 (max. 8388607)
  108 named destinations out of 1000 (max. 500000)
- 252 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

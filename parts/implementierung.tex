@@ -4,25 +4,26 @@ Der Student hatte die Aufgabe im Rahmen seines Praktikums einen
 konzeptionieren und umzusetzen. Ziel des Praktikums war der praktische Einatz
 der neuen Software für das Unternehmen um dessen Produktpalette zu erweitern.
 \section{statistische Berechnungen}
+\label{sec:stat}
 Um die erhaltenen Daten korrekt zu verarbeiten und zu berechnen wurden Formeln
 aus der Statistik herangezogen. Folgende Berechnungen wurden für die Auswertung
 der Daten getätigt:
 \begin{itemize}
   \item Median \footnote{http://de.wikipedia.org/wiki/Median}
   \item Maximum \footnote{http://de.wikipedia.org/wiki/Gr\%C3\%B6\%C3\%9Ftes\_und\_kleinstes\_Element}
-  \item Minimum \footnote{ebd.}
+  \item Minimum \footnotemark[9]
   \item Mittelwert \footnote{http://de.wikipedia.org/wiki/Mittelwert}
   \item oberes Quartil \footnote{http://de.wikipedia.org/wiki/Quartil}
-  \item unteres Quartil \footnote{ebd.}
-  \item Interquartilsabstand \footnote{ebd.}
+  \item unteres Quartil \footnotemark[11]
+  \item Interquartilsabstand \footnotemark[11]
   \item Ausreißerverdächtige Werte \footnote{http://de.wikipedia.org/wiki/Boxplot}
 \end{itemize}
 \section{Phasen der Implementierung}
 Die Arbeit wurde in drei Phasen gegliedert. 
 \begin{enumerate}
   \item Erweiterung des Webservices www.kanaleo.de um das Drupalmodul "Webform" 
-  \item Verarbeitung und Bereitstellung der Daten mittels Ruby on Rails für die
-Javascriptbibliothek Flotr2 
+  \item Verarbeitung und Bereitstellung der Daten mittels Ruby-on-Rails für die
+Javascript-Bbibliothek Flotr2 
   \item Erstellung der Auswertung in Form eines PDFs, welches an den Kunden
 ausgeliefert werden konnte
 \end{enumerate}
@@ -33,7 +34,7 @@ vereinbart. Dazu wurde nach einer gründlichen Recherche das Drupal-Modul
 "Webform" für die Umsetzung des Projektes verwendet. Dieses Modul bot eine
 schnelle Entwicklung des Fragebogens. Mittels eines vom Modul bereitgestellten
 Baukastens konnten via ''Drag and Drop'' alle Elemente der Umfrage platziert
-werden. \ref{fig: Fragebogen edit}
+werden, vgl. Abbildung \ref{fig: Fragebogen edit}
 \begin{figure}[htbp]
  \centering
  \includegraphics[width=350px]{./material/gehaltsformedit.png}
@@ -44,10 +45,10 @@ werden. \ref{fig: Fragebogen edit}
 \newpage
 \subsection{Verarbeitung und Bereitstellung der Daten}
 Die Wahl des Studenten fiel bei der Verarbeitung und Bereitstellung der Daten
-auf das Framework Ruby on Rails. Der Grund hierfür war, dass das Praktikum
-Möglichkeiten zum erlernen neuer Techniken einräumen sollte. Ruby, als Basis
+auf das Framework Ruby-on-Rails. Der Grund hierfür war, dass das Praktikum
+Möglichkeiten zum Erlernen neuer Techniken einräumen sollte. Ruby, als Basis
 des Frameworks, ist eine interessante Sprache, die dem Autor viel Raum zur
-Umsetzung des Projektes gab. Beispielhaft wird der Autor Anhand der nachfolgenden Auszüge des Programmcodes erläutern wie der Median zu berechnen war. \ref{lst:median}
+Umsetzung des Projektes gab. Beispielhaft wird der Autor anhand der nachfolgenden Auszüge in Listing \ref{lst:median} des Programmcodes erläutern, wie der Median zu berechnen war.
 
 \lstset{language=ruby}
 \begin{lstlisting}[label=lst:median,caption=Auszug: Berechnung des Medians und des Durchschnitts]
@@ -64,8 +65,8 @@ class Array
   end 
 end
 \end{lstlisting}
-Im obigen Quelltextausschnitt werden auf allen Arrays bzw. Listenobjekten die Methoden \texttt{median} und \texttt{mean} (Durchschnitt) angewendet. Die Berechnung erfolgt anhand der Vorschrift zur Berechnung des Medians.
-Aufgerufen werden die Methoden dann als Objektmethoden jedes weiteren Array-Objektes, beispielhaft in Listing \ref{lst:mean}.
+Im obigen Quelltextausschnitt werden auf allen Arrays bzw. Listenobjekten die Methoden \texttt{median} und \texttt{mean} (Durchschnitt) definiert. Die Berechnung erfolgt anhand der Vorschrift zur Berechnung des Medians(vgl. Abschnitt \ref{sec:stat}).
+Aufgerufen werden die Methoden dann als Objektmethoden jedes weiteren Array-Objektes, beispielhaft in Listing \ref{lst:mean} dargestellt.
 \begin{lstlisting}[label=lst:mean,caption=Beispiel des Durchschnitts und des Medians]
 [1,2,5,10].mean # -> 4.5
 [1,2,5,10].median # ->3.5
@@ -76,11 +77,10 @@ Aufgerufen werden die Methoden dann als Objektmethoden jedes weiteren Array-Obje
 Die Auswertung wurde in drei Teile gegliedert. 
 \begin{enumerate}
  \item die Stichprobenzusammensetzung,
- \item der allgemeine Teil, in dem alle abgegebenen Daten, aller Teilnehmer, ausgewertet werden,
+ \item der allgemeine Teil, in dem alle abgegebenen Daten aller Teilnehmer ausgewertet werden,
  \item die personalisierte Auswertung.
 \end{enumerate}
-Das im
-\fullref{sec:entwurf} erwähnte Bezahlmodell wird nachfolgend anhand von
+Das im \fullref{sec:entwurf} erwähnte Bezahlmodell wird nachfolgend anhand von
 Screenshots der Auswertung näher erläutert. 
 \subsubsection{Stichprobenzusammensetzung}
 In der Stichprobenzusammensetzung findet man einen Überblick über den Umfang der Daten. Diese werden in Torten- und Balkendiagrammen dargestellt. Alle Ergebnisse der Tortendiagramme sind Prozentangaben und die Balkendiagramme sind Absolutwerte.
@@ -99,7 +99,7 @@ In der Stichprobenzusammensetzung findet man einen Überblick über den Umfang d
  \label{fig:Ueberblick_2}
 \end{figure}
 \subsubsection{Allgemeine Auswertung}
-Der zweite Teil der Auswertung ist der allgemein, also eine Übersicht über alle Daten die abgegeben wurden. Dieser und der erste Teil sind für jeden unter bestimmten Voraussetzungen einsehbar. Entweder man möchte den Teil der Umfrage ohne Teilnahme, dann muss ein Betrag von 590€ gezahlt werden oder man möchte Teilnehmen und die Auswertung erhalten ohne Partner einer Empfehlungscommunity zu sein, dann muss ein Betrag von 990€ entrichtet werden. Im falle ein Teilnehmer ist Partner einer der Communitys ITsax.de oder ITmitte.de, dann ist die Teilnahme und der Erhalt der kompletten Auswertung kostenfrei.
+Der zweite Teil der Auswertung ist allgemein, also eine Übersicht über alle Daten die abgegeben wurden. Hierbei werden die Ergebnisse in Form von Box-Plot-Diagrammen dargestellt.
 \newpage
 \begin{figure}[htbp]
  \centering
@@ -124,3 +124,5 @@ und qt\footnote{http://qt.nokia.com/products/}.
  \caption{Auszug der persönlichen Auswertung}
  \label{fig:pers_auswertung}
 \end{figure}
+\subsection{Bezahlmodell}
+Die allgemeine Auswertung und die Stichprobenzusammensetzung sind für Teilnehmer der Studie einsehbar. Zusätzlich kann dieser Teil an Interessenten verkauft werden. Für Teilnehmer, welche Partner einer der Communitys ITsax.de oder ITmitte.de sind, ist die Teilnahme und der Erhalt der kompletten Auswertung kostenfrei. Nur Teilnehmer der Umfrage bekommen eine personalisierte Auswertung, in der ihre Ergebnisse im Vergleich zu allen anderen in Box-Plot-Diagrammen dargestellt werden. 
