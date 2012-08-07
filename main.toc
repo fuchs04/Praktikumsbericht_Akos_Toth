@@ -1,26 +1,28 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Danksagung}{4}{section.2}
-\contentsline {part}{\numberline {I}Einleitung}{4}{part.3}
-\contentsline {section}{\numberline {2}Ziel}{4}{section.4}
-\contentsline {section}{\numberline {3}Rahmen des Praktikums}{4}{section.5}
-\contentsline {part}{\numberline {II}Analyse}{5}{part.6}
-\contentsline {section}{\numberline {4}Analyse des Marktes}{5}{section.8}
-\contentsline {section}{\numberline {5}Analyse der technischen Voraussetzungen}{6}{section.9}
-\contentsline {part}{\numberline {III}Entwurf}{7}{part.10}
-\contentsline {section}{\numberline {6}Entwurf der technischen Umsetzung}{7}{section.11}
-\contentsline {subsection}{\numberline {6.1}Drupal}{7}{subsection.12}
-\contentsline {subsection}{\numberline {6.2}PHP}{8}{subsection.13}
-\contentsline {subsection}{\numberline {6.3}Ruby on Rails}{8}{subsection.15}
-\contentsline {subsection}{\numberline {6.4}Javascript}{8}{subsection.17}
-\contentsline {section}{\numberline {7}Datensicherheit}{8}{section.18}
-\contentsline {part}{\numberline {IV}Implementierungsdetails}{10}{part.19}
-\contentsline {section}{\numberline {8}statistische Berechnungen}{10}{section.20}
-\contentsline {section}{\numberline {9}Phasen der Implementierung}{10}{section.21}
-\contentsline {subsection}{\numberline {9.1}Erwiterung des Webservices www.kanaleo.de}{11}{subsection.25}
-\contentsline {subsection}{\numberline {9.2}Verarbeitung und Bereitstellung der Daten}{12}{subsection.27}
-\contentsline {subsection}{\numberline {9.3}Erstellung der Auswertung in Form eines PDFs}{12}{subsection.35}
-\contentsline {part}{\numberline {V}Ausblick}{13}{part.39}
-\contentsline {section}{\numberline {10}Empfehlungen zur weiteren Verwendung}{13}{section.40}
-\contentsline {subsection}{\numberline {10.1}technische Weiterverwendung}{13}{subsection.41}
-\contentsline {subsection}{\numberline {10.2}wirtschaftliche Weiterverwendung}{13}{subsection.42}
-\contentsline {section}{\numberline {11}Verbesserungen}{13}{section.43}
+\contentsline {part}{\numberline {I}Einleitung}{4}{part.2}
+\contentsline {section}{\numberline {1}Ziel}{4}{section.3}
+\contentsline {section}{\numberline {2}Rahmen des Praktikums}{4}{section.4}
+\contentsline {part}{\numberline {II}Analyse}{5}{part.5}
+\contentsline {section}{\numberline {3}Analyse des Marktes}{5}{section.7}
+\contentsline {section}{\numberline {4}Analyse der technischen Voraussetzungen}{6}{section.8}
+\contentsline {part}{\numberline {III}Entwurf}{7}{part.9}
+\contentsline {section}{\numberline {5}Entwurf der technischen Umsetzung}{7}{section.10}
+\contentsline {subsection}{\numberline {5.1}Drupal}{8}{subsection.11}
+\contentsline {subsection}{\numberline {5.2}PHP}{8}{subsection.13}
+\contentsline {subsection}{\numberline {5.3}Ruby on Rails}{8}{subsection.15}
+\contentsline {subsection}{\numberline {5.4}Javascript}{8}{subsection.16}
+\contentsline {section}{\numberline {6}Datensicherheit}{9}{section.18}
+\contentsline {part}{\numberline {IV}Implementierungsdetails}{11}{part.19}
+\contentsline {section}{\numberline {7}statistische Berechnungen}{11}{section.20}
+\contentsline {section}{\numberline {8}Phasen der Implementierung}{12}{section.29}
+\contentsline {subsection}{\numberline {8.1}Erweiterung des Webservices www.kanaleo.de}{12}{subsection.33}
+\contentsline {subsection}{\numberline {8.2}Verarbeitung und Bereitstellung der Daten}{14}{subsection.35}
+\contentsline {subsection}{\numberline {8.3}Erstellung der Auswertung in Form eines PDFs}{15}{subsection.53}
+\contentsline {subsubsection}{\numberline {8.3.1}Stichprobenzusammensetzung}{15}{subsubsection.57}
+\contentsline {subsubsection}{\numberline {8.3.2}Allgemeine Auswertung}{16}{subsubsection.60}
+\contentsline {subsubsection}{\numberline {8.3.3}Pers\IeC {\"o}nliche Auswertung}{17}{subsubsection.62}
+\contentsline {part}{\numberline {V}Ausblick}{19}{part.67}
+\contentsline {section}{\numberline {9}Empfehlungen zur weiteren Verwendung}{19}{section.68}
+\contentsline {subsection}{\numberline {9.1}technische Weiterverwendung}{19}{subsection.69}
+\contentsline {subsection}{\numberline {9.2}wirtschaftliche Weiterverwendung}{19}{subsection.70}
+\contentsline {section}{\numberline {10}Verbesserungen}{20}{section.71}

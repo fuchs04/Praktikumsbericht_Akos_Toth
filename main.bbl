@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -13,6 +13,14 @@
 \newblock http://www.drupal.org.
 \newblock 2005. --
 \newblock URL \url{http://www.drupal.org}
+
+\bibitem[Garver(2007)]{graver}
+\dinatlabel{Garver 2007} \textsc{Garver}, Ryan:
+\newblock \emph{Journal, Java D. (Hrsg.): Why Ruby on Rails has become a
+  popular next platform. Dezember 2007.}
+\newblock http://java.sys-con.com/node/464389.
+\newblock 2007. --
+\newblock URL \url{http://java.sys-con.com/node/464389}
 
 \bibitem[pludoni GmbH(2010)]{kanaleo}
 \dinatlabel{pludoni GmbH 2010} \textsc{GmbH} pludoni:

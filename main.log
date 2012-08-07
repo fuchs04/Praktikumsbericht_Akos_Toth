@@ -1,11 +1,12 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  7 AUG 2012 10:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.6)  7 AUG 2012 15:09
 entering extended mode
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, ngerman, german, german-x-2009-06-19, ngerman-x-2009-06-19, loaded.
+
 (/usr/share/texmf-texlive/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2009/07/24 v3.04a KOMA-Script document class (article)
 
@@ -110,15 +111,10 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `ngerman'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@ngerman = a dialect from \language0
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-)) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+))
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -553,7 +549,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count101
 ))
 (/usr/share/texmf-texlive/tex/latex/mdwtools/mdwlist.sty
@@ -625,15 +621,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen117
 \Gm@even@mp=\dimen118
 \Gm@dimlist=\toks22
-)
 
-Package geometry Warning: Over-specification in `h'-direction.
-    `width' (455.24408pt) is ignored.
-
-
-Package geometry Warning: Over-specification in `v'-direction.
-    `height' (597.50787pt) is ignored.
-
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks23
@@ -948,7 +937,7 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 (/usr/share/texmf-texlive/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language4
+\langwohyphens=\language8
 LaTeX Info: Redefining \_ on input line 43.
 )
 (/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
@@ -991,7 +980,7 @@ LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
 
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count162
 \scratchdimen=\dimen142
@@ -1012,12 +1001,12 @@ landscape: --
 twocolumn: --
 twoside: --
 asymmetric: --
-h-parts: 113.81102pt, 426.79135pt, 56.9055pt
-v-parts: 85.35826pt, 674.33032pt, 85.35826pt
-hmarginratio: --
-vmarginratio: --
+h-parts: 89.62709pt, 0.7\paperwidth , 89.6271pt (default)
+v-parts: 101.40665pt, 0.7\paperheight , 152.11pt (default)
+hmarginratio: 1:1
+vmarginratio: 2:3
 lines: --
-heightrounded: true
+heightrounded: --
 bindingoffset: 0.0pt
 truedimen: --
 includehead: --
@@ -1027,11 +1016,11 @@ driver: pdftex
 -------------------- Page layout dimensions and switches
 \paperwidth  597.50787pt
 \paperheight 845.04684pt
-\textwidth  426.79135pt
-\textheight 679.0pt
-\oddsidemargin  41.54103pt
-\evensidemargin 41.54103pt
-\topmargin  -26.78673pt
+\textwidth  418.25368pt
+\textheight 591.5302pt
+\oddsidemargin  17.3571pt
+\evensidemargin 17.3571pt
+\topmargin  -10.73834pt
 \headheight 18.125pt
 \headsep    21.75pt
 \footskip   50.75pt
@@ -1083,7 +1072,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<material/htwlogo.jpg, id=103, 341.3553pt x 127.9179pt>
+<material/htwlogo.jpg, id=111, 341.3553pt x 127.9179pt>
 File: material/htwlogo.jpg Graphic file (type jpg)
 
 <use material/htwlogo.jpg>) [1
@@ -1123,7 +1112,7 @@ Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)            on input line 9.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 10.
+(scrartcl)            on input line 14.
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 15.
@@ -1133,21 +1122,18 @@ Class scrartcl Info: You've told me to use the font selection of the element
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
 (scrartcl)            on input line 17.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 18.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 22.
-Class scrartcl Info: You've told me to use the font selection of the element
-(scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 23.
  [2
 
 ]
 Class scrartcl Info: You've told me to use the font selection of the element
 (scrartcl)           `sectioning' that is an alias of element `disposition'
-(scrartcl)            on input line 26.
+(scrartcl)            on input line 24.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 25.
+Class scrartcl Info: You've told me to use the font selection of the element
+(scrartcl)           `sectioning' that is an alias of element `disposition'
+(scrartcl)            on input line 28.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1161,117 +1147,161 @@ Class scrartcl Info: You've told me to use the font selection of the element
 \openout2 = `parts/analyse.aux'.
 
  (./parts/analyse.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][][]\T1/cmr/m/n/10 Gehaltsumfrage 2008: http://www.heise.de/jobs/artikel/c-t-
+Gehaltsumfrage-2008-
+ []
+
+
+Overfull \hbox (4.18488pt too wide) in paragraph at lines 8--11
+\T1/cmr/m/n/12 Mehr-wert des Ge-haltss-pie-gels be-steht für Mit-ar-bei-ter im 
+Be-reich Human-Resources-
+ []
+
 [5
 
 
-]) [6]
+]
+Overfull \hbox (1.95906pt too wide) in paragraph at lines 12--13
+\T1/cmr/m/n/12 Als zu ver-wen-den-de Tech-no-lo-gi-en wur-den die fol-gen-den V
+or-aus-set-zun-gen be-stimmt: 
+ []
+
+) [6]
 \openout2 = `parts/entwurf.aux'.
 
  (./parts/entwurf.tex
-Overfull \hbox (3.03548pt too wide) in paragraph at lines 3--6
-\T1/cmr/m/n/12 son-al-re-cruiter einen Überblick über die ak-tuelle Gehaltssi-t
--u-a-tion in Sach-sen, Sachsen-
+Overfull \hbox (11.57315pt too wide) in paragraph at lines 3--6
+\T1/cmr/m/n/12 so-nal-re-crui-ter einen Über-blick über die ak-tu-el-le Ge-halt
+s-si-tua-ti-on in Sach-sen, Sachsen-
  []
 
 [7
 
 
-]) [8] [9]
-\openout2 = `parts/implementierung.aux'.
+] <./material/pie_chart.png, id=212, 596.2275pt x 397.485pt>
+File: ./material/pie_chart.png Graphic file (type png)
 
- (./parts/implementierung.tex
-<material/fragebogen.png, id=206, 442.65375pt x 377.15906pt>
-File: material/fragebogen.png Graphic file (type png)
-
-<use material/fragebogen.png>
-Overfull \hbox (15.8613pt too wide) in paragraph at lines 39--41
+<use ./material/pie_chart.png>
+Overfull \hbox (177.97237pt too wide) in paragraph at lines 23--25
  [][] 
  []
 
+[8]) [9 <./material/pie_chart.png>] [10]
+\openout2 = `parts/implementierung.aux'.
 
-Overfull \hbox (3.82442pt too wide) in paragraph at lines 30--43
-\T1/cmr/m/n/12 Zu Be-ginn der Ar-beit wurde vom Au-tor in zusam-me-nar-beit mit
- dem Ve-r-ant-wortlichen
- []
-
-[10
+ (./parts/implementierung.tex [11
 
 
-] [11 <./material/fragebogen.png (PNG copy)>]
+]
+<./material/gehaltsformedit.png, id=251, 971.63pt x 1548.78625pt>
+File: ./material/gehaltsformedit.png Graphic file (type png)
+
+<use ./material/gehaltsformedit.png>
+
+LaTeX Warning: Float too large for page by 7.46657pt on input line 44.
+
+[12] [13 <./material/gehaltsformedit.png>]
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 (/usr/share/texmf-texlive/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2004/09/05 1.3 listings language file
-)) [12]
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 55.
+ [14]
+<./material/auszug_ueberblick_1.png, id=294, 1084.05pt x 781.92125pt>
+File: ./material/auszug_ueberblick_1.png Graphic file (type png)
+
+<use ./material/auszug_ueberblick_1.png>
+<./material/auszug_ueberblick_2.png, id=295, 1084.05pt x 781.92125pt>
+File: ./material/auszug_ueberblick_2.png Graphic file (type png)
+
+<use ./material/auszug_ueberblick_2.png> [15 <./material/auszug_ueberblick_1.pn
+g>] [16 <./material/auszug_ueberblick_2.png>]
+<./material/allgemeine_auswertung.png, id=311, 1084.05pt x 781.92125pt>
+File: ./material/allgemeine_auswertung.png Graphic file (type png)
+
+<use ./material/allgemeine_auswertung.png>
+<./material/pers_auswertung.png, id=315, 1084.05pt x 781.92125pt>
+File: ./material/pers_auswertung.png Graphic file (type png)
+
+<use ./material/pers_auswertung.png>) [17 <./material/allgemeine_auswertung.png
+>] [18 <./material/pers_auswertung.png>]
 \openout2 = `parts/ausblick.aux'.
 
+ (./parts/ausblick.tex) [19
 
-(./parts/ausblick.tex) [13
 
-
-] [14]
+] [20]
 \openout2 = `parts/99-appendix.aux'.
 
- (./parts/99-appendix.tex (./main.lof)
+
+(./parts/99-appendix.tex (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-
-(./main.bbl
+ (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
 []\T1/cmr/m/n/12 [Drupal 2005]  \T1/cmr/m/sc/12 Dru-pal\T1/cmr/m/n/12 :  \T1/cm
-r/m/it/12 Con-tent Man-age-ment Sys-tem Dru-pal\T1/cmr/m/n/12 .
+r/m/it/12 Con-tent Ma-na-ge-ment Sys-tem Dru-pal\T1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
-[]\T1/cmr/m/n/12 [Heise 2011]  \T1/cmr/m/sc/12 Heise\T1/cmr/m/n/12 :  \T1/cmr/m
-/it/12 Com-put-er-fachzeitschrift von www.heise.de\T1/cmr/m/n/12 .
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+[]\T1/cmr/m/n/12 [Heise 2011]  \T1/cmr/m/sc/12 Hei-se\T1/cmr/m/n/12 :  \T1/cmr/
+m/it/12 Com-puter-fach-zeit-schrift von www.heise.de\T1/cmr/m/n/12 .
  []
 
-) [15
+[21
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
+[]\T1/cmr/m/n/12 [Rails 2011]  \T1/cmr/m/sc/12 Rails\T1/cmr/m/n/12 :  \T1/cmr/m
+/it/12 Fra-me-work für We-b-ent-wick-lung\T1/cmr/m/n/12 .
+ []
+
+) [22]
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
 \us=\skip78
-) [16] (./main.aux (./parts/00-frontpage.aux) (./parts/einleitung.aux)
+) [23] (./main.aux (./parts/00-frontpage.aux) (./parts/einleitung.aux)
 (./parts/analyse.aux) (./parts/entwurf.aux) (./parts/implementierung.aux)
 (./parts/ausblick.aux) (./parts/99-appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 12242 strings out of 495061
- 173345 string characters out of 1182621
- 542758 words of memory out of 3000000
- 15025 multiletter control sequences out of 15000+50000
+ 12328 strings out of 495021
+ 175091 string characters out of 1181036
+ 567556 words of memory out of 3000000
+ 15080 multiletter control sequences out of 15000+50000
  22645 words of font info for 59 fonts, out of 3000000 for 9000
  29 hyphenation exceptions out of 8191
- 43i,13n,43p,916b,1183s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,43p,916b,1203s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{
 cite.*} has been referenced but does not exist, replaced by a fixed one
 
- </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/f
-uchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/fuchs04/.t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/fuchs04/.texmf-var/
-fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/fuchs04/.texmf-var/fonts/pk/
+ </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/f
+uchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/fuchs04/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/fuchs04/.texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/
 ljfour/jknappen/ec/tcrm1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jk
 nappen/ec/ecrm1000.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec
 /ecrm0700.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2488
 .600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> <
 /home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home/fuc
-hs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/fuchs04/.tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/fuchs04/.texmf-var/fo
+hs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/fuchs04/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/fuchs04/.texmf-var/fo
 nts/pk/ljfour/jknappen/ec/ecsx1728.600pk> </home/fuchs04/.texmf-var/fonts/pk/lj
 four/jknappen/ec/ecrm1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ecbx1200.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
 cbx2074.600pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.6
 00pk> </home/fuchs04/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
-Output written on main.pdf (16 pages, 451931 bytes).
+Output written on main.pdf (23 pages, 1050143 bytes).
 PDF statistics:
- 865 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1016 PDF objects out of 1200 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

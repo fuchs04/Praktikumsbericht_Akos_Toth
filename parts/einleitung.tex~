@@ -3,7 +3,8 @@
 Die pludoni GmbH ist ein junges Dresdner Startup, welches die Vernetzung kleiner und mittelständischer Unternehmen in Sachsen, Sachsen-Anhalt und Thüringen 
 mittels Empfehlungscommunitys im Fokus hat. Die Firma besteht seit 2009 unter der Leitung von Dr. Jörg Klukas und ist in stetigem Wachstum. 
 Der Student ist seit 2010 als Werkstudent im Unternehmen beschäftigt. Seine Aufgaben sind die Weiter- und Neuentwicklung von Produkten für und um die Empfehlungscommunitys. 
-So auch die Entwicklung des hier beschriebenen ``Gehaltsbenchmarks für Mitteldeutschland`` \cite{Gehaltsbenchmark}.
+So auch die Entwicklung des hier beschriebenen ``Gehaltsbenchmarks für
+Mitteldeutschland`` \citep{Gehaltsbenchmark}.
 \section{Ziel}
 Dieser Praktikumsbericht wird die Entwicklung des Gehaltsspiegels mit dem Fokus auf den Bereich Softwareprogrammierer, Softwareentwickler und Software-Architekt beschreiben. 
 Es werden beispielhafte Auszüge des entwickelten Codes vorgestellt. Im Detail geht der Praktikant auf technische Hintergründe und Problemstellungen bei der Entwicklung ein.

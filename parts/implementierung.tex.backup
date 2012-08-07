@@ -20,55 +20,91 @@ der Daten getätigt:
 \section{Phasen der Implementierung}
 Die Arbeit wurde in drei Phasen gegliedert. 
 \begin{enumerate}
-  \item Erweiterung des Webservices www.kanaleo.de um das Drupalmodul "Webform"
+  \item Erweiterung des Webservices www.kanaleo.de um das Drupalmodul "Webform" 
   \item Verarbeitung und Bereitstellung der Daten mittels Ruby on Rails für die
 Javascriptbibliothek Flotr2 
   \item Erstellung der Auswertung in Form eines PDFs, welches an den Kunden
 ausgeliefert werden konnte
 \end{enumerate}
-\subsection{Erwiterung des Webservices www.kanaleo.de}
-Zu Beginn der Arbeit wurde vom Autor in zusammenarbeit mit dem Verantwortlichen
+\subsection{Erweiterung des Webservices www.kanaleo.de}
+Zu Beginn der Arbeit wurde vom Autor in Zusammenarbeit mit dem Verantwortlichen
 Herrn Dr. Jörg Klukas die Erweiterung des Webservices kanaleo.de
-vereinbart. Dazu wurde nach einer gründlichen Recherche das Drupalmodul
+vereinbart. Dazu wurde nach einer gründlichen Recherche das Drupal-Modul
 "Webform" für die Umsetzung des Projektes verwendet. Dieses Modul bot eine
 schnelle Entwicklung des Fragebogens. Mittels eines vom Modul bereitgestellten
-Baukastens konnten via Drag and Drop alle Elemente der Umfrage Platziert
+Baukastens konnten via ''Drag and Drop'' alle Elemente der Umfrage platziert
 werden. Nachfolgend sehen Sie einen Auszug der Entwicklung des
-Fragebogens.\begin{figure}
+Fragebogens.
+\begin{figure}[htbp]
  \centering
- \includegraphics{material/fragebogen.png}
- % fragebogen.png: 588x501 pixel, 96dpi, 15.56x13.26 cm, bb=0 0 441 376
- \caption{Auszug der Entwicklung des Fragebogens mittel des Moduls Webform}
+ \includegraphics[width=350px]{./material/gehaltsformedit.png}
+ % gehaltsformedit.png: 968x1543 pixel, 72dpi, 34.15x54.43 cm, bb=
+ \caption{Auszug der Entwicklung des Fragebogens mittels des Moduls Webform}
+ \label{fig: Fragebogen edit}
 \end{figure}
-\newpage 
+\newpage
 \subsection{Verarbeitung und Bereitstellung der Daten}
 Die Wahl des Studenten fiel bei der Verarbeitung und Bereitstellung der Daten
 auf das Framework Ruby on Rails. Der Grund hierfür war, dass das Praktikum
 Möglichkeiten zum erlernen neuer Techniken einräumen sollte. Ruby, als Basis
 des Frameworks, ist eine interessante Sprache, die dem Autor viel Raum zur
 Umsetzung des Projektes gab. Anhand der nachfolgenden Auszüge des Programmcodes
-wird der Student erläutern welche Berechnungen angestellt wurden und in welchem
-Format die Daten an die Javascriptbibliothek übergeben werden mussten um
-korrekte Diagramme und Grafiken zu erhalten. 
+wird der Student erläutern wie der Median zu berechnen war. \ref{lst:median}
+
 \lstset{language=ruby}
-\begin{lstlisting}
-def median
-    case self.size % 2
-    when 0 then self.sort[self.size/2-1,2].mean
-    when 1 then self.sort[self.size/2].to_f
+\begin{lstlisting}[label=lst:median,caption=Auszug: Berechnung des Medians und des Durchschnitts]
+class Array
+  def median
+    case self.size % 2 
+    when 0 then self.sort[self.size/2-1,2].mean 
+    when 1 then self.sort[self.size/2].to_f 
     end if self.size > 0            
   end
-\end{lstlisting}
 
+  def mean                                                                                                                                                   
+    sum / count.to_f
+  end 
+end
+\end{lstlisting}
+Im obigen Quelltextausschnitt werden auf allen Arrays bzw. Listenobjekten die Methoden \texttt{median} und mean (Durchschnitt) angewendet. Die Berechnung erfolgt anhand der Vorschrift zur Berechnung des Medians\footnote{http://de.wikipedia.org/wiki/Median}.
+Aufgerufen werden die Methoden dann als Objektmethoden jedes weiteren Array-Objektes, beispielhaft in Listing \ref{lst:mean}.
+\begin{lstlisting}[label=lst:mean,caption=Beispiel des Durchschnitts und des Medians]
+[1,2,5,10].mean # -> 4.5
+[1,2,5,10].median # ->3.5
+\end{lstlisting}
+\newpage
 \subsection{Erstellung der Auswertung in Form eines PDFs}
-Die Auswertung wurde in zwei Teile gegliedert. Der erste Teil ist der 
-allgemeine Teil, in dem alle abgegebenen Daten ausgewertet und grafisch
-dargestellt werden. Im zweiten Teil geht es um den Teilnehmer persönlich. Das
-heiß, Die Daten des teilnehmenden Unternehmens werden ausgewertet und mit allen
+\label{sec:pdf_auswertung}
+Die Auswertung wurde in drei Teile gegliedert. 
+\begin{enumerate}
+ \item die Stichprobenzusammensetzung,
+ \item der allgemeine Teil, in dem alle abgegebenen Daten, aller Teilnehmer, ausgewertet werden,
+ \item die personalisierte Auswertung.
+\end{enumerate}
+
+In der Stichprobenzusammensetzung findet man einen Überblick über den Umfang der Daten. Diese werden in Torten- und Balkendiagrammen dargestellt. Alle Ergebnisse der Tortendiagramme sind Prozentangaben und die Balkendiagramme sind Absolutwerte.
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=350px]{./material/auszug_ueberblick_1.png}
+ % auszug_ueberblick_1.png: 1080x779 pixel, 72dpi, 38.10x27.48 cm, bb=
+ \caption{Auszug der Stichprobenzusammensetzung}
+ \label{fig:Ueberblick_1}
+\end{figure}
+\begin{figure}[htbp]
+ \centering
+ \includegraphics[width=350px]{./material/auszug_ueberblick_2.png}
+ % auszug_ueberblick_1.png: 1080x779 pixel, 72dpi, 38.10x27.48 cm, bb=
+ \caption{Auszug der Stichprobenzusammensetzung 2}
+ \label{fig:Ueberblick_2}
+\end{figure}
+\newpage
+Im zweiten Teil geht es um den Teilnehmer persönlich. Das
+heißt, die Daten des teilnehmenden Unternehmens werden ausgewertet und mit allen
 anderen Werten verglichen. So erhält man eine gute Übersicht über die
-Ergebnisse. Die erstellung des PDFs erfolgte mittels
+Ergebnisse. Die ersten beiden Teile der Auswertung, also Stichprobenzusammensetzung und allgemeine Auswertung stehen prinzipiell jedem zur Verfügung. Die Erstellung des PDFs erfolgte mittels
 ''wkhtmltopdf''\footnote{http://code.google.com/p/wkhtmltopdf/}. Dieses Tool
-ist eine simple Shell-Anwendung die es ermöglicht aus einem HTML-Dokument ein
+ist eine simple Shell-Anwendung, die es ermöglicht aus einem HTML-Dokument ein
 PDF zu generieren. Dabei nutzt das Tool webkit\footnote{http://www.webkit.org/}
 und qt\footnote{http://qt.nokia.com/products/}. Das im
-\fullref{sec:entwurf} erwähnte 
+\fullref{sec:entwurf} erwähnte Bezahlmodell wird nachfolgend anhand von
+Screenshots der Auswertung näher erläutert. 

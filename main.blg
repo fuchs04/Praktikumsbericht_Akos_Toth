@@ -10,44 +10,44 @@ A level-1 auxiliary file: parts/99-appendix.aux
 The style file: dinat.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: litverz.bib
-You've used 7 entries,
+You've used 8 entries,
             3552 wiz_defined-function locations,
-            833 strings with 6751 characters,
-and the built_in function-call counts, 3296 in all, are:
-= -- 399
-> -- 49
-< -- 14
-+ -- 28
-- -- 21
-* -- 296
-:= -- 575
-add.period$ -- 14
-call.type$ -- 7
-change.case$ -- 28
-chr.to.int$ -- 7
-cite$ -- 7
-duplicate$ -- 91
-empty$ -- 274
-format.name$ -- 42
-if$ -- 687
+            838 strings with 6901 characters,
+and the built_in function-call counts, 3797 in all, are:
+= -- 461
+> -- 56
+< -- 21
++ -- 37
+- -- 24
+* -- 338
+:= -- 661
+add.period$ -- 16
+call.type$ -- 8
+change.case$ -- 32
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 104
+empty$ -- 313
+format.name$ -- 48
+if$ -- 790
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 59
-num.names$ -- 28
-pop$ -- 21
+newline$ -- 66
+num.names$ -- 32
+pop$ -- 24
 preamble$ -- 1
-purify$ -- 28
+purify$ -- 32
 quote$ -- 0
-skip$ -- 85
+skip$ -- 102
 stack$ -- 0
-substring$ -- 301
-swap$ -- 14
-text.length$ -- 7
+substring$ -- 349
+swap$ -- 16
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 77
+type$ -- 88
 warning$ -- 0
-while$ -- 42
+while$ -- 48
 width$ -- 0
-write$ -- 93
+write$ -- 105
